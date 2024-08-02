@@ -1,0 +1,22 @@
+{
+	"testMinigame": {
+		"Animations": {
+			"Idle": "DEVELOPERSPRITES\\frame_1_delay-0.3s.png",
+			"Left": "DEVELOPERSPRITES\\frame_3_delay-0.3s.png",
+			"Right": "DEVELOPERSPRITES\\frame_7_delay-0.3s.png",
+			"Up": "DEVELOPERSPRITES\\frame_4_delay-0.3s.png"
+		},
+		"BackupName": "testMinigame",
+		"FPS": 40,
+		"Map": "lily\\frame258.png",
+		"Music": "",
+		"Panorama": true,
+		"Sprites": [],
+		"StaticEffect": true,
+		"Timed": true,
+		"Timer": 10,
+		"Touch": false,
+		"X": 200,
+		"Y": 200
+	}
+}

@@ -1,0 +1,28 @@
+[ {
+	"duration": 1,
+	"sprite": "Mask\\mask_1.png"
+}, {
+	"duration": 1,
+	"sprite": "Mask\\mask_2.png"
+}, {
+	"duration": 1,
+	"sprite": "Mask\\mask_3.png"
+}, {
+	"duration": 1,
+	"sprite": "Mask\\mask_4.png"
+}, {
+	"duration": 1,
+	"sprite": "Mask\\mask_5.png"
+}, {
+	"duration": 1,
+	"sprite": "Mask\\mask_6.png"
+}, {
+	"duration": 1,
+	"sprite": "Mask\\mask_7.png"
+}, {
+	"duration": 1,
+	"sprite": "Mask\\mask_8.png"
+}, {
+	"duration": 1,
+	"sprite": "Mask\\mask_9.png"
+} ]

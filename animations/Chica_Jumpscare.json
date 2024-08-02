@@ -1,0 +1,28 @@
+[ {
+	"duration": 1,
+	"sprite": "Chica\\03.png"
+}, {
+	"duration": 1,
+	"sprite": "Chica\\04.png"
+}, {
+	"duration": 1,
+	"sprite": "Chica\\05.png"
+}, {
+	"duration": 1,
+	"sprite": "Chica\\06.png"
+}, {
+	"duration": 1,
+	"sprite": "Chica\\07.png"
+}, {
+	"duration": 1,
+	"sprite": "Chica\\08.png"
+}, {
+	"duration": 1,
+	"sprite": "Chica\\09.png"
+}, {
+	"duration": 1,
+	"sprite": "Chica\\10.png"
+}, {
+	"duration": 1,
+	"sprite": "Chica\\11.png"
+} ]

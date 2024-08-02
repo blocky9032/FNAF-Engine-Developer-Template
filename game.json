@@ -1,0 +1,5542 @@
+{
+	"animatronics": {
+		"Bonnie": {
+			"ai": [ 1, 4, 7, 9, 12, 14, 20 ],
+			"ignoremask": false,
+			"jumpscare": [ "XSCREAM.mp3", "Bonnie_Jumpscare" ],
+			"path": [ {
+				"id": "Showstage",
+				"type": "camera"
+			}, {
+				"id": "DiningArea",
+				"type": "camera"
+			}, {
+				"chance": 2,
+				"path": [ {
+					"id": "DiningArea",
+					"type": "camera"
+				}, {
+					"id": "WestHall",
+					"type": "camera"
+				}, {
+					"id": "WestHallCorner",
+					"type": "camera"
+				}, {
+					"id": "LeftLight",
+					"type": "light"
+				}, {
+					"id": "LeftDoor",
+					"type": "door"
+				}, {
+					"type": "office"
+				} ],
+				"type": "chance"
+			}, {
+				"id": "Backstage",
+				"type": "camera"
+			}, {
+				"id": "WestHall",
+				"type": "camera"
+			}, {
+				"id": "WestHallCorner",
+				"type": "camera"
+			}, {
+				"chance": 5,
+				"path": [ {
+					"id": "WestHall",
+					"type": "camera"
+				}, {
+					"id": "DiningArea",
+					"type": "camera"
+				}, {
+					"id": "Backstage",
+					"type": "camera"
+				}, {
+					"id": "WestHall",
+					"type": "camera"
+				}, {
+					"id": "LeftLight",
+					"type": "light"
+				}, {
+					"id": "LeftDoor",
+					"type": "door"
+				}, {
+					"type": "office"
+				} ],
+				"type": "chance"
+			}, {
+				"id": "LeftLight",
+				"type": "light"
+			}, {
+				"id": "LeftDoor",
+				"type": "door"
+			}, {
+				"type": "office"
+			} ]
+		},
+		"Chica": {
+			"ai": [ 1, 3, 6, 8, 10, 14, 20 ],
+			"ignoremask": false,
+			"jumpscare": [ "XSCREAM.mp3", "Chica_Jumpscare" ],
+			"path": [ {
+				"id": "Showstage",
+				"type": "camera"
+			}, {
+				"id": "DiningArea",
+				"type": "camera"
+			}, {
+				"id": "Bathrooms",
+				"type": "camera"
+			}, {
+				"id": "Kitchen",
+				"type": "camera"
+			}, {
+				"chance": 2,
+				"path": [ {
+					"id": "Bathrooms",
+					"type": "camera"
+				}, {
+					"id": "DiningArea",
+					"type": "camera"
+				}, {
+					"id": "EastHallCorner",
+					"type": "camera"
+				}, {
+					"id": "RightLight",
+					"type": "light"
+				}, {
+					"id": "RightDoor",
+					"type": "door"
+				}, {
+					"type": "office"
+				} ],
+				"type": "chance"
+			}, {
+				"id": "DiningArea",
+				"type": "camera"
+			}, {
+				"id": "EastHall",
+				"type": "camera"
+			}, {
+				"id": "EastHallCorner",
+				"type": "camera"
+			}, {
+				"chance": 3,
+				"path": [ {
+					"id": "DiningArea",
+					"type": "camera"
+				}, {
+					"id": "EastHall",
+					"type": "camera"
+				}, {
+					"id": "EastHallCorner",
+					"type": "camera"
+				}, {
+					"id": "RightLight",
+					"type": "light"
+				}, {
+					"id": "RightDoor",
+					"type": "door"
+				}, {
+					"type": "office"
+				} ],
+				"type": "chance"
+			}, {
+				"id": "RightLight",
+				"type": "light"
+			}, {
+				"id": "RightDoor",
+				"type": "door"
+			}, {
+				"type": "office"
+			} ]
+		},
+		"Foxy": {
+			"ai": [ 0, 2, 6, 9, 12, 14, 20 ],
+			"ignoremask": true,
+			"jumpscare": [ "XSCREAM.mp3", "Foxy_Jumpscare" ],
+			"path": [ {
+				"id": "PirateCove",
+				"type": "camera"
+			}, {
+				"state": "peek",
+				"type": "change_state"
+			}, {
+				"state": "peek2",
+				"type": "change_state"
+			}, {
+				"state": "peek3",
+				"type": "change_state"
+			}, {
+				"id": "LeftLight",
+				"type": "light"
+			}, {
+				"id": "LeftDoor",
+				"type": "door"
+			}, {
+				"type": "office"
+			} ]
+		},
+		"Freddy": {
+			"ai": [ 0, 0, 3, 5, 8, 14, 20 ],
+			"ignoremask": true,
+			"jumpscare": [ "XSCREAM.mp3", "Freddy_Jumpscare" ],
+			"path": [ {
+				"id": "Showstage",
+				"type": "camera"
+			}, {
+				"id": "DiningArea",
+				"type": "camera"
+			}, {
+				"id": "Bathrooms",
+				"type": "camera"
+			}, {
+				"chance": 3,
+				"path": [ {
+					"id": "DiningArea",
+					"type": "camera"
+				}, {
+					"id": "Showstage",
+					"type": "camera"
+				}, {
+					"id": "Kitchen",
+					"type": "camera"
+				}, {
+					"id": "EastHallCorner",
+					"type": "camera"
+				}, {
+					"id": "RightDoor",
+					"type": "door"
+				}, {
+					"type": "office"
+				} ],
+				"type": "chance"
+			}, {
+				"id": "Kitchen",
+				"type": "camera"
+			}, {
+				"id": "EastHall",
+				"type": "camera"
+			}, {
+				"id": "EastHallCorner",
+				"type": "camera"
+			}, {
+				"chance": 5,
+				"path": [ {
+					"id": "EastHall",
+					"type": "camera"
+				}, {
+					"id": "RightDoor",
+					"type": "door"
+				}, {
+					"type": "office"
+				} ],
+				"type": "chance"
+			}, {
+				"id": "RightDoor",
+				"type": "door"
+			}, {
+				"type": "office"
+			} ]
+		},
+		"NPC_PowerOutAI": {
+			"ai": [ 0, 0, 0, 0, 0, 0, 0 ],
+			"ignoremask": false,
+			"jumpscare": [ "XSCREAM.mp3", "Freddy_PowerOutJumpscare" ],
+			"path": [ {
+				"id": "NPC_PowerOutPRE",
+				"type": "camera"
+			}, {
+				"id": "NPC_PowerOut0",
+				"type": "camera"
+			}, {
+				"id": "NPC_PowerOut1",
+				"type": "camera"
+			}, {
+				"id": "NPC_PowerOut2",
+				"type": "camera"
+			}, {
+				"id": "NPC_PowerOut3",
+				"type": "camera"
+			}, {
+				"type": "office"
+			} ]
+		},
+		"gay": {
+			"ai": [ 5, 5, 5, 5, 5, 5, 0 ],
+			"ignoremask": false,
+			"jumpscare": [ "circus.wav", "Blip" ],
+			"path": [ {
+				"camid": "boykisser",
+				"type": "music_box"
+			}, {
+				"id": "Showstage",
+				"type": "camera"
+			}, {
+				"id": "Bathrooms",
+				"type": "camera"
+			}, {
+				"id": "Backstage",
+				"type": "camera"
+			} ]
+		}
+	},
+	"cameras": {
+		"Backstage": {
+			"blip": true,
+			"panorama": true,
+			"states": {
+				"Bonnie": "Cams\\Backstage\\205.png",
+				"Bonnie,gay": "DEVELOPERSPRITES\\83_2.png",
+				"Default": "Cams\\Backstage\\83.png",
+				"gay": "DEVELOPERSPRITES\\83.png"
+			},
+			"static": true
+		},
+		"Bathrooms": {
+			"blip": true,
+			"panorama": true,
+			"states": {
+				"Chica": "Cams\\Bathrooms\\217.png",
+				"Chica,gay": "DEVELOPERSPRITES\\41_3.png",
+				"Default": "Cams\\Bathrooms\\41.png",
+				"Freddy": "Cams\\Bathrooms\\494.png",
+				"Freddy,Chica": "Cams\\Bathrooms\\219.png",
+				"Freddy,Chica,gay": "DEVELOPERSPRITES\\41_4.png",
+				"Freddy,gay": "DEVELOPERSPRITES\\41_2.png",
+				"gay": "DEVELOPERSPRITES\\41.png"
+			},
+			"static": true
+		},
+		"CamUI": {
+			"buttons": {
+				"Backstage": [ "174.png", 396, 171, "" ],
+				"Bathrooms": [ "176.png", 555, 174, "" ],
+				"DiningArea": [ "171.png", 446, 160, "" ],
+				"EastHall": [ "169.png", 506, 250, "" ],
+				"EastHallCorner": [ "173.png", 507, 269, "" ],
+				"Kitchen": [ "175.png", 553, 237, "" ],
+				"PirateCove": [ "177.png", 432, 195, "" ],
+				"Showstage": [ "170.png", 452, 135, "" ],
+				"WestCloset": [ "168.png", 416, 242, "" ],
+				"WestHall": [ "172.png", 447, 249, "" ],
+				"WestHallCorner": [ "165.png", 447, 269, "" ],
+				"boykisser": [ "DEVELOPERSPRITES\\camboykisser.png", 558, 139, "" ]
+			},
+			"music_box": [ 88, 246 ],
+			"sprites": {
+				"a_map": [ "145.png", 403, 120 ],
+				"back": [ "DEVELOPERSPRITES\\Bring_Up_Monitor.png", 25, 69 ],
+				"backShowstage": [ "CamText\\71.png", 391, 106 ],
+				"boykisstext": [ "DEVELOPERSPRITES\\boykissertext.png", 396, 106 ],
+				"cam_Backstage": [ "a_cameranotselected.png", 392, 167 ],
+				"cam_Bathrooms": [ "a_cameranotselected.png", 551, 171 ],
+				"cam_DiningArea": [ "a_cameranotselected.png", 442, 156 ],
+				"cam_EastHall": [ "a_cameranotselected.png", 503, 247 ],
+				"cam_EastHallCorner": [ "a_cameranotselected.png", 503, 266 ],
+				"cam_Kitchen": [ "a_cameranotselected.png", 549, 233 ],
+				"cam_PirateCove": [ "a_cameranotselected.png", 427, 191 ],
+				"cam_Showstage": [ "a_cameranotselected.png", 448, 132 ],
+				"cam_WestCloset": [ "a_cameranotselected.png", 413, 239 ],
+				"cam_WestHall": [ "a_cameranotselected.png", 443, 246 ],
+				"cam_WestHallCorner": [ "a_cameranotselected.png", 443, 265 ],
+				"cameradisabled": [ "CamText\\42.png", 225, 53 ],
+				"camon_Backstage": [ "a_cameraselected.png", 392, 167 ],
+				"camon_Bathrooms": [ "a_cameraselected.png", 551, 171 ],
+				"camon_DiningArea": [ "a_cameraselected.png", 442, 156 ],
+				"camon_EastHall": [ "a_cameraselected.png", 503, 247 ],
+				"camon_EastHallCorner": [ "a_cameraselected.png", 503, 266 ],
+				"camon_Kitchen": [ "a_cameraselected.png", 549, 233 ],
+				"camon_PirateCove": [ "a_cameraselected.png", 427, 191 ],
+				"camon_Showstage": [ "a_cameraselected.png", 448, 132 ],
+				"camon_WestCloset": [ "a_cameraselected.png", 413, 239 ],
+				"camon_WestHall": [ "a_cameraselected.png", 443, 246 ],
+				"camon_WestHallCorner": [ "a_cameraselected.png", 443, 265 ],
+				"diningarea": [ "CamText\\72.png", 391, 106 ],
+				"easthall": [ "CamText\\79.png", 391, 106 ],
+				"ehallcorner": [ "CamText\\75.png", 391, 106 ],
+				"kitchen": [ "CamText\\78.png", 391, 106 ],
+				"piratecove": [ "CamText\\70.png", 391, 105 ],
+				"reddotcam": [ "Cams\\7.png", 15, 17 ],
+				"restrooms": [ "CamText\\77.png", 391, 106 ],
+				"showShowstage": [ "CamText\\54.png", 391, 106 ],
+				"sprite2309": [ "CamBorder\\11.png", 1, 1 ],
+				"supplycloset": [ "CamText\\50.png", 391, 106 ],
+				"westhall": [ "CamText\\74.png", 391, 106 ],
+				"whallcorner": [ "CamText\\76.png", 391, 106 ]
+			}
+		},
+		"DiningArea": {
+			"blip": true,
+			"panorama": true,
+			"states": {
+				"Bonnie": "Cams\\DiningArea\\90.png",
+				"Chica": "Cams\\DiningArea\\215.png",
+				"Chica,Bonnie": "Cams\\DiningArea\\120.png",
+				"Chica,Freddy": "Cams\\DiningArea\\222.png",
+				"Default": "Cams\\DiningArea\\48.png",
+				"Freddy": "Cams\\DiningArea\\492.png",
+				"Freddy,Bonnie": "Cams\\DiningArea\\492.png",
+				"Freddy,Bonnie,Chica": "Cams\\DiningArea\\492.png"
+			},
+			"static": true
+		},
+		"EastHall": {
+			"blip": true,
+			"panorama": true,
+			"states": {
+				"Chica": "Cams\\EastHall\\221.png",
+				"Default": "Cams\\EastHall\\67.png",
+				"Freddy": "Cams\\EastHall\\487.png",
+				"Freddy,Chica": "Cams\\EastHall\\226.png"
+			},
+			"static": true
+		},
+		"EastHallCorner": {
+			"blip": true,
+			"panorama": true,
+			"states": {
+				"Chica": "Cams\\EastHallCorner\\220.png",
+				"Default": "Cams\\EastHallCorner\\49.png",
+				"Freddy": "Cams\\EastHallCorner\\486.png",
+				"Freddy,Chica": "Cams\\EastHallCorner\\486.png"
+			},
+			"static": true
+		},
+		"Kitchen": {
+			"blip": true,
+			"panorama": false,
+			"states": {
+				"Chica": "Cams\\Kitchen\\Black.png",
+				"Default": "Cams\\Kitchen\\Black.png",
+				"Freddy,Chica": "Cams\\Kitchen\\Black.png"
+			},
+			"static": true
+		},
+		"NPC_PowerOut0": {
+			"blip": true,
+			"panorama": false,
+			"states": {
+				"Default": ""
+			},
+			"static": true
+		},
+		"NPC_PowerOut1": {
+			"blip": true,
+			"panorama": false,
+			"states": {
+				"Default": ""
+			},
+			"static": true
+		},
+		"NPC_PowerOut2": {
+			"blip": true,
+			"panorama": false,
+			"states": {
+				"Default": ""
+			},
+			"static": true
+		},
+		"NPC_PowerOut3": {
+			"blip": true,
+			"panorama": false,
+			"states": {
+				"Default": ""
+			},
+			"static": true
+		},
+		"NPC_PowerOutPRE": {
+			"blip": true,
+			"panorama": false,
+			"states": {
+				"Default": ""
+			},
+			"static": true
+		},
+		"PirateCove": {
+			"blip": true,
+			"panorama": true,
+			"states": {
+				"Default": "Cams\\PirateCove\\66.png",
+				"Foxy:peek": "Cams\\PirateCove\\211.png",
+				"Foxy:peek2": "Cams\\PirateCove\\338.png",
+				"Foxy:peek3": "Cams\\PirateCove\\553.png"
+			},
+			"static": true
+		},
+		"Showstage": {
+			"blip": true,
+			"panorama": true,
+			"states": {
+				"Bonnie": "Cams\\Showstage\\223.png",
+				"Bonnie,Chica": "Cams\\Showstage\\223.png",
+				"Bonnie,Chica,gay": "DEVELOPERSPRITES\\2_3.png",
+				"Bonnie,gay": "DEVELOPERSPRITES\\2_4.png",
+				"Chica": "Cams\\Showstage\\484.png",
+				"Chica,gay": "DEVELOPERSPRITES\\2_5.png",
+				"Default": "Cams\\Showstage\\484.png",
+				"Freddy": "Cams\\Showstage\\355.png",
+				"Freddy,Bonnie": "Cams\\Showstage\\223.png",
+				"Freddy,Bonnie,Chica": "Cams\\Showstage\\19.png",
+				"Freddy,Bonnie,Chica,gay": "DEVELOPERSPRITES\\2.png",
+				"Freddy,Bonnie,gay": "DEVELOPERSPRITES\\2_2.png",
+				"Freddy,Chica": "Cams\\Showstage\\68.png",
+				"Freddy,Chica,gay": "DEVELOPERSPRITES\\2_1.png",
+				"Freddy,gay": "DEVELOPERSPRITES\\2_6.png"
+			},
+			"static": true
+		},
+		"WestCloset": {
+			"blip": true,
+			"panorama": true,
+			"states": {
+				"Bonnie": "Cams\\WestCloset\\190.png",
+				"Default": "Cams\\WestCloset\\62.png"
+			},
+			"static": true
+		},
+		"WestHall": {
+			"blip": true,
+			"panorama": true,
+			"states": {
+				"Bonnie": "Cams\\WestHall\\206.png",
+				"Bonnie,Foxy": "Foxy Hallway\\287.png",
+				"Default": "Cams\\WestHall\\44.png",
+				"Foxy": "Foxy Hallway\\287.png"
+			},
+			"static": true
+		},
+		"WestHallCorner": {
+			"blip": true,
+			"panorama": true,
+			"states": {
+				"Bonnie": "Cams\\WestHallCorner\\188.png",
+				"Default": "Cams\\WestHallCorner\\0.png"
+			},
+			"static": true
+		},
+		"boykisser": {
+			"blip": true,
+			"panorama": true,
+			"states": {
+				"Default": "Cams\\Bathrooms\\41.png",
+				"gay": "DEVELOPERSPRITES\\boykissercamera.png"
+			},
+			"static": true
+		}
+	},
+	"cutscenes": {
+		"testCut": {
+			"Animation": "lily",
+			"BackgroudMusic": "",
+			"FPS": 24
+		}
+	},
+	"ext_data": {
+		"skmutecall": {
+			"HideDelay": 400
+		},
+		"skpanoramamodifier": {
+			"Camera": 100,
+			"Office": 300
+		}
+	},
+	"game_info": {
+		"fnaf1": false,
+		"fnaf3": false,
+		"fnaf4": false,
+		"fps": 60,
+		"height": "720",
+		"id": "FNAF",
+		"invert": true,
+		"multiplayer": false,
+		"opacity": 255,
+		"style": 0,
+		"title": "Five Nights At Freddy's",
+		"vhs": false,
+		"width": "1280"
+	},
+	"loaded_extensions": [ "Advanced Visual", "Mute Call", "More Scripting Blocks", "Panorama Modifier", "AI toggle" ],
+	"menus": {
+		"6AM": {
+			"code": [ {
+				"args": [ "20" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM (8).png" ],
+					"block": "set_background"
+				}, {
+					"args": [ "At the beginning of the menu the 6AM chime will play." ],
+					"block": "comment"
+				}, {
+					"args": [ "Every 5 ticks, I modify the background to create the 6 AM animation." ],
+					"block": "comment"
+				}, {
+					"args": [ "To change the animation, please inspect the \"6AM2\" folder in your project's sprites directory." ],
+					"block": "comment"
+				} ]
+			}, {
+				"args": [ "25" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM (9).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "30" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (1).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "35" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (2).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "40" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (3).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "45" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (4).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "50" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (5).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "55" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (6).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "60" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (7).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "65" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (8).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "70" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (9).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "75" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (10).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "80" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (1).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "85" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (2).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "90" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (3).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "95" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (4).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "100" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (5).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "105" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (6).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "110" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (7).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "115" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (8).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "120" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (9).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "125" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (10).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "130" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (1).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "135" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (2).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "140" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (3).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "145" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (4).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "200" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": [],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "6AM2\\6AM (1).png",
+				"BackgroundMusic": "6 AM\\fnaf-6-am.mp3",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"FadeIn": true,
+				"FadeSpeed": 40,
+				"Panorama": false,
+				"StaticEffect": false
+			}
+		},
+		"AfterOver": {
+			"code": [ {
+				"args": [ "340" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [],
+				"block": "user_left_clicked",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": [ {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "",
+				"text": "Game Over",
+				"type": "StaticText",
+				"x": 474,
+				"y": 295
+			} ],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "Cams\\Backstage\\358.png",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"FadeIn": true,
+				"FadeSpeed": 20,
+				"Panorama": false,
+				"StaticEffect": false
+			}
+		},
+		"AnimTesting": {
+			"code": [ {
+				"args": [ "mmm" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": [ {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 25,
+				"hidden": false,
+				"id": "",
+				"text": "If the animations works correctly, you should see this:",
+				"type": "StaticText",
+				"x": 75,
+				"y": 103
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 15,
+				"hidden": false,
+				"id": "",
+				"text": "(menu animations)",
+				"type": "StaticText",
+				"x": 129,
+				"y": 90
+			}, {
+				"animation": "lily",
+				"hidden": false,
+				"id": "",
+				"type": "Animation",
+				"x": 233,
+				"y": 153
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "mmm",
+				"text": "GoTo Main",
+				"type": "Button",
+				"x": 481,
+				"y": 306
+			} ],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"Effect": "None",
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"MenuScroll": false,
+				"Panorama": false,
+				"Shader": "",
+				"StaticEffect": ""
+			}
+		},
+		"BackgroundColorTest": {
+			"code": [ {
+				"args": [],
+				"block": "user_left_clicked",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": [ {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "",
+				"text": "Click GoTo Main",
+				"type": "StaticText",
+				"x": 202,
+				"y": 157
+			} ],
+			"properties": {
+				"BackgroundColor": "125,0,125",
+				"BackgroundImage": "",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"Effect": "None",
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"MenuScroll": false,
+				"Panorama": false,
+				"Shader": "",
+				"StaticEffect": ""
+			}
+		},
+		"CatDiamond": {
+			"code": [ {
+				"args": [ "%random(80, 200)" ],
+				"block": "every_num_ticks",
+				"subcode": [ {
+					"args": [ "meow", "%random(1, 2)" ],
+					"block": "set_var"
+				}, {
+					"args": [ "%var(meow)", "==", "1" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "DEVELOPERAUDIO\\cutecatsound.mp3", "40", false ],
+						"block": "play_sound"
+					} ]
+				} ]
+			}, {
+				"args": [ "m" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": [ {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "m",
+				"text": "GoTo Main",
+				"type": "Button",
+				"x": 526,
+				"y": 315
+			} ],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "DEVELOPERSPRITES\\catshrine.png",
+				"BackgroundMusic": "DEVELOPERAUDIO\\purrrrrr.mp3",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"Effect": "None",
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"MenuScroll": false,
+				"Panorama": false,
+				"Shader": "",
+				"StaticEffect": ""
+			}
+		},
+		"CrashRuntime": {
+			"code": [],
+			"elements": [],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "DEVELOPERSPRITES\\this_image_will_not_be_present.png",
+				"BackgroundMusic": "this_audio_does_not_exist.wav",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"Effect": "None",
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"MenuScroll": false,
+				"Panorama": false,
+				"Shader": "",
+				"StaticEffect": ""
+			}
+		},
+		"CustomNight": {
+			"code": [ {
+				"args": [ "start" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "night7" ],
+					"block": "show_element"
+				}, {
+					"args": [ "t1" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "t2" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "t3" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "mainmenuback" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "start" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "easy" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "medium" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "hard" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "goldenfreddycn" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "freddy" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "bonnie" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "chica" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "foxy" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "office" ],
+					"block": "setoff"
+				}, {
+					"args": [],
+					"block": "start_custom_night"
+				}, {
+					"args": [ "When I press the \"Start\" button, I display the text for the 7th night and load the custom night" ],
+					"block": "comment"
+				} ]
+			}, {
+				"args": [ "easy" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "freddy", "1" ],
+					"block": "set_cn_icon_ai"
+				}, {
+					"args": [ "bonnie", "3" ],
+					"block": "set_cn_icon_ai"
+				}, {
+					"args": [ "chica", "3" ],
+					"block": "set_cn_icon_ai"
+				}, {
+					"args": [ "foxy", "1" ],
+					"block": "set_cn_icon_ai"
+				} ]
+			}, {
+				"args": [ "medium" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "freddy", "7" ],
+					"block": "set_cn_icon_ai"
+				}, {
+					"args": [ "bonnie", "9" ],
+					"block": "set_cn_icon_ai"
+				}, {
+					"args": [ "chica", "9" ],
+					"block": "set_cn_icon_ai"
+				}, {
+					"args": [ "foxy", "7" ],
+					"block": "set_cn_icon_ai"
+				} ]
+			}, {
+				"args": [ "hard" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "freddy", "15" ],
+					"block": "set_cn_icon_ai"
+				}, {
+					"args": [ "bonnie", "17" ],
+					"block": "set_cn_icon_ai"
+				}, {
+					"args": [ "chica", "17" ],
+					"block": "set_cn_icon_ai"
+				}, {
+					"args": [ "foxy", "15" ],
+					"block": "set_cn_icon_ai"
+				} ]
+			}, {
+				"args": [ "goldenfreddycn" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "freddy", "20" ],
+					"block": "set_cn_icon_ai"
+				}, {
+					"args": [ "bonnie", "20" ],
+					"block": "set_cn_icon_ai"
+				}, {
+					"args": [ "chica", "20" ],
+					"block": "set_cn_icon_ai"
+				}, {
+					"args": [ "foxy", "20" ],
+					"block": "set_cn_icon_ai"
+				} ]
+			}, {
+				"args": [ "mainmenuback" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": [ {
+				"animatronic": "Bonnie",
+				"hidden": false,
+				"id": "bonnie",
+				"sprite": "Custom Night\\528.png",
+				"type": "CustomNightIcon",
+				"x": 362,
+				"y": 185
+			}, {
+				"animatronic": "Chica",
+				"hidden": false,
+				"id": "chica",
+				"sprite": "Custom Night\\529.png",
+				"type": "CustomNightIcon",
+				"x": 429,
+				"y": 185
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 48,
+				"hidden": false,
+				"id": "t1",
+				"text": "Custom Night",
+				"type": "StaticText",
+				"x": 37,
+				"y": 70
+			}, {
+				"animatronic": "Freddy",
+				"hidden": false,
+				"id": "freddy",
+				"sprite": "Custom Night\\527.png",
+				"type": "CustomNightIcon",
+				"x": 295,
+				"y": 185
+			}, {
+				"animatronic": "Foxy",
+				"hidden": false,
+				"id": "foxy",
+				"sprite": "Custom Night\\536.png",
+				"type": "CustomNightIcon",
+				"x": 496,
+				"y": 185
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 32,
+				"hidden": false,
+				"id": "easy",
+				"text": "Easy",
+				"type": "Button",
+				"x": 37,
+				"y": 192
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 32,
+				"hidden": false,
+				"id": "medium",
+				"text": "Medium",
+				"type": "Button",
+				"x": 37,
+				"y": 219
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 32,
+				"hidden": false,
+				"id": "hard",
+				"text": "Hard",
+				"type": "Button",
+				"x": 37,
+				"y": 246
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 32,
+				"hidden": false,
+				"id": "goldenfreddycn",
+				"text": "Impossible",
+				"type": "Button",
+				"x": 37,
+				"y": 273
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 40,
+				"hidden": false,
+				"id": "t3",
+				"text": "Presets",
+				"type": "StaticText",
+				"x": 37,
+				"y": 157
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 32,
+				"hidden": false,
+				"id": "mainmenuback",
+				"text": "Back",
+				"type": "Button",
+				"x": 507,
+				"y": 75
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 32,
+				"hidden": false,
+				"id": "start",
+				"text": "Start",
+				"type": "Button",
+				"x": 381,
+				"y": 75
+			}, {
+				"hidden": false,
+				"id": "t2",
+				"sprite": "Custom Night\\532_nb.png",
+				"type": "Image",
+				"x": 118,
+				"y": 126
+			}, {
+				"hidden": true,
+				"id": "night7",
+				"sprite": "WhatDay\\538.png",
+				"type": "Image",
+				"x": 243,
+				"y": 142
+			}, {
+				"hidden": true,
+				"id": "clock",
+				"sprite": "WhatDay\\482.png",
+				"type": "Image",
+				"x": 571,
+				"y": 306
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Arial",
+				"fontsize": 15,
+				"hidden": false,
+				"id": "",
+				"text": "(will be reworked on fep)",
+				"type": "StaticText",
+				"x": 2,
+				"y": 2
+			} ],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"Panorama": false,
+				"StaticEffect": false
+			}
+		},
+		"CutscenesCode": {
+			"code": [ {
+				"args": [ "start" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "testCut" ],
+					"block": "play_cutscene"
+				} ]
+			}, {
+				"args": [ "gotomenu" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "testCut", "Main" ],
+					"block": "replay"
+				} ]
+			}, {
+				"args": [ "m" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": [ {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "",
+				"text": "Cutscenes Testing",
+				"type": "StaticText",
+				"x": 34,
+				"y": 27
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "start",
+				"text": "Start cut at night start",
+				"type": "Button",
+				"x": 155,
+				"y": 151
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "gotomenu",
+				"text": "Start cut and gotomenu Main",
+				"type": "Button",
+				"x": 155,
+				"y": 203
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 18,
+				"hidden": false,
+				"id": "",
+				"text": "Night 6 if u unlocked everything - works like a continue button",
+				"type": "StaticText",
+				"x": 155,
+				"y": 175
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "m",
+				"text": "GoTo Main",
+				"type": "Button",
+				"x": 475,
+				"y": 305
+			} ],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "DEVELOPERSPRITES\\304.png",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"Effect": "None",
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"MenuScroll": false,
+				"Panorama": false,
+				"Shader": "",
+				"StaticEffect": ""
+			}
+		},
+		"Ending5": {
+			"code": [ {
+				"args": [],
+				"block": "on_menu_start",
+				"subcode": [ {
+					"args": [ "6 AM\\fnaf-6-am.mp3", "39", false ],
+					"block": "play_sound"
+				}, {
+					"args": [ "clickAllowed", "0" ],
+					"block": "set_var"
+				}, {
+					"args": [ "Check \"Ending6\" to see the comments" ],
+					"block": "comment"
+				} ]
+			}, {
+				"args": [ "20" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM (8).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "25" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM (9).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "30" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (1).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "35" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (2).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "40" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (3).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "45" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (4).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "50" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (5).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "55" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (6).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "60" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (7).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "65" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (8).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "70" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (9).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "75" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (10).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "80" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (1).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "85" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (2).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "90" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (3).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "95" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (4).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "100" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (5).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "105" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (6).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "110" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (7).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "115" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (8).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "120" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (9).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "125" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (10).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "130" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (1).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "135" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (2).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "140" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (3).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "145" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (4).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "200" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "End\\210.png" ],
+					"block": "set_background"
+				}, {
+					"args": [ "music box.wav", "39", false ],
+					"block": "play_sound"
+				}, {
+					"args": [ "clickAllowed", "1" ],
+					"block": "set_var"
+				} ]
+			}, {
+				"args": [ "1700" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [],
+				"block": "user_left_clicked",
+				"subcode": [ {
+					"args": [ "%var(clickAllowed)", "==", "1" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "Main" ],
+						"block": "goto_menu"
+					} ]
+				} ]
+			} ],
+			"elements": [],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "6AM2\\6AM (1).png",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"FadeIn": true,
+				"FadeSpeed": 40,
+				"Panorama": false,
+				"StaticEffect": false
+			}
+		},
+		"Ending6": {
+			"code": [ {
+				"args": [],
+				"block": "on_menu_start",
+				"subcode": [ {
+					"args": [ "6 AM\\fnaf-6-am.mp3", "39", false ],
+					"block": "play_sound"
+				}, {
+					"args": [ "clickAllowed", "0" ],
+					"block": "set_var"
+				}, {
+					"args": [ "I play the 6 AM chime sound at the beginning of the menu." ],
+					"block": "comment"
+				}, {
+					"args": [ "I've also set a variable called \"clickAllowed\" to determine whether the player can click to skip the menu" ],
+					"block": "comment"
+				}, {
+					"args": [ "Every 5 ticks, I modify the background to create the 6 AM animation." ],
+					"block": "comment"
+				}, {
+					"args": [ "To change the animation, please inspect the \"6AM2\" folder in your project's sprites directory." ],
+					"block": "comment"
+				} ]
+			}, {
+				"args": [ "20" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM (8).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "25" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM (9).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "30" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (1).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "35" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (2).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "40" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (3).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "45" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (4).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "50" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (5).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "55" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (6).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "60" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (7).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "65" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (8).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "70" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (9).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "75" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (10).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "80" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (1).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "85" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (2).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "90" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (3).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "95" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (4).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "100" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (5).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "105" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (6).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "110" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (7).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "115" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (8).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "120" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (9).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "125" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (10).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "130" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (1).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "135" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (2).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "140" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (3).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "145" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (4).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "200" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "End\\522.png" ],
+					"block": "set_background"
+				}, {
+					"args": [ "music box.wav", "39", false ],
+					"block": "play_sound"
+				}, {
+					"args": [ "clickAllowed", "1" ],
+					"block": "set_var"
+				}, {
+					"args": [ "Once the animation concludes, the player can click, triggering another background change to display the end screen" ],
+					"block": "comment"
+				}, {
+					"args": [ "I'll play the music box sound, and if the player remains inactive, the game will teleport them back to the main menu" ],
+					"block": "comment"
+				} ]
+			}, {
+				"args": [ "1700" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [],
+				"block": "user_left_clicked",
+				"subcode": [ {
+					"args": [ "%var(clickAllowed)", "==", "1" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "Main" ],
+						"block": "goto_menu"
+					} ]
+				} ]
+			} ],
+			"elements": [],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "6AM2\\6AM (1).png",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"Panorama": false,
+				"StaticEffect": false
+			}
+		},
+		"Ending7": {
+			"code": [ {
+				"args": [],
+				"block": "on_menu_start",
+				"subcode": [ {
+					"args": [ "6 AM\\fnaf-6-am.mp3", "39", false ],
+					"block": "play_sound"
+				}, {
+					"args": [ "clickAllowed", "0" ],
+					"block": "set_var"
+				}, {
+					"args": [ "Check \"Ending6\" to see the comments" ],
+					"block": "comment"
+				} ]
+			}, {
+				"args": [ "20" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM (8).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "25" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM (9).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "30" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (1).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "35" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (2).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "40" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (3).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "45" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (4).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "50" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (5).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "55" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (6).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "60" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (7).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "65" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (8).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "70" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (9).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "75" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM2 (10).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "80" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (1).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "85" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (2).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "90" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (3).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "95" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (4).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "100" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (5).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "105" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (6).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "110" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (7).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "115" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (8).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "120" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (9).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "125" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM3 (10).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "130" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (1).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "135" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (2).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "140" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (3).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "145" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "6AM2\\6AM4 (4).png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "200" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "End\\523.png" ],
+					"block": "set_background"
+				}, {
+					"args": [ "music box.wav", "39", false ],
+					"block": "play_sound"
+				}, {
+					"args": [ "clickAllowed", "1" ],
+					"block": "set_var"
+				} ]
+			}, {
+				"args": [ "1700" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [],
+				"block": "user_left_clicked",
+				"subcode": [ {
+					"args": [ "%var(clickAllowed)", "==", "1" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "Main" ],
+						"block": "goto_menu"
+					} ]
+				} ]
+			} ],
+			"elements": [],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "6AM2\\6AM (1).png",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"FadeIn": true,
+				"FadeSpeed": 40,
+				"Panorama": false,
+				"StaticEffect": false
+			}
+		},
+		"GN_jumpscare": {
+			"code": [ {
+				"args": [ "150" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [],
+					"block": "quit"
+				} ]
+			} ],
+			"elements": [],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "Creeps\\548.png",
+				"BackgroundMusic": "XSCREAM2.wav",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"Panorama": false,
+				"StaticEffect": false
+			}
+		},
+		"GameOver": {
+			"code": [ {
+				"args": [ "150" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "AfterOver" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": [],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "black.png",
+				"BackgroundMusic": "static.wav",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"Panorama": false,
+				"StaticEffect": true
+			}
+		},
+		"Loading": {
+			"code": [ {
+				"args": [ "30" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "%data(NightLoad)", "==", "1" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "office" ],
+						"block": "setoff"
+					}, {
+						"args": [ "1" ],
+						"block": "start_night"
+					}, {
+						"args": [ "I set the office to be loaded, read the data value, and load the night accordingly" ],
+						"block": "comment"
+					} ]
+				}, {
+					"args": [ "%data(NightLoad)", "==", "2" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "office" ],
+						"block": "setoff"
+					}, {
+						"args": [ "2" ],
+						"block": "start_night"
+					}, {
+						"args": [ "I set the office to be loaded, read the data value, and load the night accordingly" ],
+						"block": "comment"
+					} ]
+				}, {
+					"args": [ "%data(NightLoad)", "==", "3" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "office" ],
+						"block": "setoff"
+					}, {
+						"args": [ "3" ],
+						"block": "start_night"
+					}, {
+						"args": [ "I set the office to be loaded, read the data value, and load the night accordingly" ],
+						"block": "comment"
+					} ]
+				}, {
+					"args": [ "%data(NightLoad)", "==", "4" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "office" ],
+						"block": "setoff"
+					}, {
+						"args": [ "4" ],
+						"block": "start_night"
+					}, {
+						"args": [ "I set the office to be loaded, read the data value, and load the night accordingly" ],
+						"block": "comment"
+					} ]
+				}, {
+					"args": [ "%data(NightLoad)", "==", "5" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "office" ],
+						"block": "setoff"
+					}, {
+						"args": [ "5" ],
+						"block": "start_night"
+					}, {
+						"args": [ "I set the office to be loaded, read the data value, and load the night accordingly" ],
+						"block": "comment"
+					} ]
+				}, {
+					"args": [ "%data(NightLoad)", "==", "6" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "office" ],
+						"block": "setoff"
+					}, {
+						"args": [ "6" ],
+						"block": "start_night"
+					}, {
+						"args": [ "I set the office to be loaded, read the data value, and load the night accordingly" ],
+						"block": "comment"
+					} ]
+				} ]
+			} ],
+			"elements": [ {
+				"hidden": false,
+				"id": "",
+				"sprite": "WhatDay\\482.png",
+				"type": "Image",
+				"x": 571,
+				"y": 306
+			} ],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"FadeIn": true,
+				"FadeSpeed": 20,
+				"Panorama": false,
+				"StaticEffect": false
+			}
+		},
+		"Main": {
+			"code": [ {
+				"args": [ "newgame" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "News" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "continue" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "NightLoad", "%data(Night)" ],
+					"block": "set_data"
+				}, {
+					"args": [ "WhatDay" ],
+					"block": "goto_menu"
+				}, {
+					"args": [ "\"NightLoad\" is a data value used to inform the engine about which night to load." ],
+					"block": "comment"
+				} ]
+			}, {
+				"args": [],
+				"block": "on_game_loop",
+				"subcode": [ {
+					"args": [ "continue" ],
+					"block": "is_button_selected",
+					"subcode": [ {
+						"args": [ "night_txt" ],
+						"block": "show_element"
+					}, {
+						"args": [ "night_txt", "Night %data(Night)" ],
+						"block": "set_text"
+					} ]
+				}, {
+					"args": [ "continue" ],
+					"block": "is_button_selected",
+					"negated": true,
+					"subcode": [ {
+						"args": [ "night_txt" ],
+						"block": "hide_element"
+					} ]
+				} ]
+			}, {
+				"args": [],
+				"block": "on_menu_start",
+				"subcode": [ {
+					"args": [ "%data(beat5)", "==", "1" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "6thnight" ],
+						"block": "show_element"
+					}, {
+						"args": [ "night5" ],
+						"block": "show_element"
+					} ]
+				}, {
+					"args": [ "%data(beat6)", "==", "1" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "cn" ],
+						"block": "show_element"
+					}, {
+						"args": [ "night6" ],
+						"block": "show_element"
+					} ]
+				}, {
+					"args": [ "%data(beatgame)", "==", "1" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "customnight" ],
+						"block": "show_element"
+					} ]
+				}, {
+					"args": [ "In the game's start menu, it checks whether the player has completed the 5th, 6th, and 7th nights" ],
+					"block": "comment"
+				}, {
+					"args": [ "DataOfficeCheck", "69" ],
+					"block": "set_data"
+				} ]
+			}, {
+				"args": [ "6thnight" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "NightLoad", "6" ],
+					"block": "set_data"
+				}, {
+					"args": [ "WhatDay" ],
+					"block": "goto_menu"
+				}, {
+					"args": [ "\"NightLoad\" is a data value used to inform the engine about which night to load." ],
+					"block": "comment"
+				} ]
+			}, {
+				"args": [ "cn" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "CustomNight" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "7" ],
+				"block": "every_num_ticks",
+				"subcode": [ {
+					"args": [ "Main Menu\\431.png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "25" ],
+				"block": "every_num_ticks",
+				"subcode": [ {
+					"args": [ "MainMenuGlitch\\440.png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "144" ],
+				"block": "every_num_ticks",
+				"subcode": [ {
+					"args": [ "MainMenuGlitch\\442.png" ],
+					"block": "set_background"
+				} ]
+			}, {
+				"args": [ "46" ],
+				"block": "every_num_ticks",
+				"subcode": [ {
+					"args": [ "MainMenuGlitch\\441.png" ],
+					"block": "set_background"
+				}, {
+					"args": [ "This section of \"Every x tick(s)\" is used for making Freddy twitch and glitchy" ],
+					"block": "comment"
+				} ]
+			}, {
+				"args": [],
+				"block": "on_menu_start",
+				"subcode": [ {
+					"args": [ "static2.wav", "40", false ],
+					"block": "play_sound"
+				}, {
+					"args": [ "nightcounter", "1" ],
+					"block": "set_var"
+				}, {
+					"args": [ "%random(1, 10000)", "==", "69" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "diamond" ],
+						"block": "show_element"
+					} ]
+				} ]
+			}, {
+				"args": [],
+				"block": "any_button_selected",
+				"subcode": [ {
+					"args": [ "blip3.wav", "41", false ],
+					"block": "play_sound"
+				} ]
+			}, {
+				"args": [ "direct1" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "office" ],
+					"block": "setoff"
+				}, {
+					"args": [ "1" ],
+					"block": "start_night"
+				} ]
+			}, {
+				"args": [ "direct2" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "SelectionMenu" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "unlock" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "beat5", "1" ],
+					"block": "set_data"
+				}, {
+					"args": [ "beat6", "1" ],
+					"block": "set_data"
+				}, {
+					"args": [ "beatgame", "1" ],
+					"block": "set_data"
+				}, {
+					"args": [ "Warning" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "dn2" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "office" ],
+					"block": "setoff"
+				}, {
+					"args": [ "5" ],
+					"block": "start_night"
+				} ]
+			}, {
+				"args": [ "lock" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "beat5", "0" ],
+					"block": "set_data"
+				}, {
+					"args": [ "beat6", "0" ],
+					"block": "set_data"
+				}, {
+					"args": [ "beatgame", "0" ],
+					"block": "set_data"
+				}, {
+					"args": [ "Warning" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "snbn" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "office" ],
+					"block": "setoff"
+				}, {
+					"args": [ "%var(nightcounter)" ],
+					"block": "start_night"
+				} ]
+			}, {
+				"args": [ "p" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "%var(nightcounter)", ">=", "1" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "nightcounter", "%math(%var(nightcounter) + 1)" ],
+						"block": "set_var"
+					}, {
+						"args": [ "counter", "%var(nightcounter)" ],
+						"block": "set_text"
+					} ]
+				} ]
+			}, {
+				"args": [ "m" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "%var(nightcounter)", "<>", "1" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "nightcounter", "%math(%var(nightcounter) - 1)" ],
+						"block": "set_var"
+					}, {
+						"args": [ "counter", "%var(nightcounter)" ],
+						"block": "set_text"
+					} ]
+				} ]
+			}, {
+				"args": [],
+				"block": "user_left_clicked",
+				"subcode": [ {
+					"args": [ "whenimage" ],
+					"block": "is_image_selected",
+					"subcode": [ {
+						"args": [ "whenimage" ],
+						"block": "goto_menu"
+					} ]
+				} ]
+			}, {
+				"args": [ "exit" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [],
+					"block": "quit"
+				} ]
+			}, {
+				"args": [ "zero" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "zero", "Result: %math(0/0)" ],
+					"block": "set_text"
+				} ]
+			}, {
+				"args": [ "random" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "random", "Result: %random(1, 100)" ],
+					"block": "set_text"
+				} ]
+			}, {
+				"args": [ "cat" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "CatDiamond" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "mat" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "AnimTesting" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "full" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [],
+					"block": "fullscreen"
+				} ]
+			}, {
+				"args": [ "wind" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [],
+					"block": "windowed"
+				} ]
+			}, {
+				"args": [ "hicb" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [],
+					"block": "HIDE_mouse"
+				} ]
+			}, {
+				"args": [ "refresh" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "stopc" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "40" ],
+					"block": "stop_channel"
+				} ]
+			}, {
+				"args": [ "showtitle" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "1p" ],
+					"block": "show_element"
+				}, {
+					"args": [ "2p" ],
+					"block": "show_element"
+				}, {
+					"args": [ "3p" ],
+					"block": "show_element"
+				}, {
+					"args": [ "4p" ],
+					"block": "show_element"
+				} ]
+			}, {
+				"args": [ "hidetitle" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "1p" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "2p" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "3p" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "4p" ],
+					"block": "hide_element"
+				} ]
+			}, {
+				"args": [ "debugger" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "meow! :3" ],
+					"block": "line"
+				} ]
+			}, {
+				"args": [ "arrows" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [],
+					"block": "dbutton_arrows"
+				} ]
+			}, {
+				"args": [ "token" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "faz", "DEVELOPERSPRITES\\faztokenBLUE.png" ],
+					"block": "set_sprite"
+				} ]
+			}, {
+				"args": [ "garred" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "faz", "DEVELOPERSPRITES\\faztokenRED.png" ],
+					"block": "set_sprite"
+				} ]
+			}, {
+				"args": [ "garr" ],
+				"block": "button_selected",
+				"subcode": [ {
+					"args": [],
+					"block": "ebutton_arrows"
+				} ]
+			}, {
+				"args": [ "lua" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "lua" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "except" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "CrashRuntime" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": [ {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "newgame",
+				"text": "New Game",
+				"type": "Button",
+				"x": 43,
+				"y": 178
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "newgame",
+				"text": "New Game",
+				"type": "Button",
+				"x": -247,
+				"y": 86
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "continue",
+				"text": "Continue",
+				"type": "Button",
+				"x": 43,
+				"y": 206
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": true,
+				"id": "6thnight",
+				"text": "6th Night",
+				"type": "Button",
+				"x": 43,
+				"y": 247
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": true,
+				"id": "cn",
+				"text": "Custom Night",
+				"type": "Button",
+				"x": 43,
+				"y": 275
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "2p",
+				"text": "Night's",
+				"type": "StaticText",
+				"x": 43,
+				"y": 57
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "3p",
+				"text": "At",
+				"type": "StaticText",
+				"x": 43,
+				"y": 81
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 16,
+				"hidden": false,
+				"id": "",
+				"text": "v Dev20",
+				"type": "StaticText",
+				"x": 11,
+				"y": 315
+			}, {
+				"hidden": true,
+				"id": "night5",
+				"sprite": "goldstar.png",
+				"type": "Image",
+				"x": 47,
+				"y": 148
+			}, {
+				"hidden": true,
+				"id": "night6",
+				"sprite": "goldstar.png",
+				"type": "Image",
+				"x": 77,
+				"y": 148
+			}, {
+				"hidden": true,
+				"id": "customnight",
+				"sprite": "goldstar.png",
+				"type": "Image",
+				"x": 107,
+				"y": 148
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 18,
+				"hidden": false,
+				"id": "",
+				"text": "FNAF Engine Dev Edition",
+				"type": "StaticText",
+				"x": 44,
+				"y": 130
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 18,
+				"hidden": true,
+				"id": "night_txt",
+				"text": "Night 1",
+				"type": "StaticText",
+				"x": 47,
+				"y": 229
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 30,
+				"hidden": false,
+				"id": "direct2",
+				"text": "GoTo a specific menu...",
+				"type": "Button",
+				"x": 300,
+				"y": 214
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 30,
+				"hidden": false,
+				"id": "unlock",
+				"text": "Unlock everything",
+				"type": "Button",
+				"x": 300,
+				"y": 156
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 30,
+				"hidden": false,
+				"id": "dn2",
+				"text": "Start Night 5",
+				"type": "Button",
+				"x": 300,
+				"y": 127
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "counter",
+				"text": 1,
+				"type": "StaticText",
+				"x": 362,
+				"y": 40
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 30,
+				"hidden": false,
+				"id": "snbn",
+				"text": "Start Selected Night",
+				"type": "Button",
+				"x": 300,
+				"y": 98
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "4p",
+				"text": "Freddy's",
+				"type": "StaticText",
+				"x": 43,
+				"y": 105
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "LCD Solid",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "p",
+				"text": "add +1",
+				"type": "Button",
+				"x": 491,
+				"y": 45
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "LCD Solid",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "m",
+				"text": "remove -1",
+				"type": "Button",
+				"x": 481,
+				"y": 62
+			}, {
+				"hidden": false,
+				"id": "whenimage",
+				"sprite": "DEVELOPERSPRITES\\testimage.png",
+				"type": "Image",
+				"x": 499,
+				"y": 176
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 30,
+				"hidden": false,
+				"id": "exit",
+				"text": "Quit Runtime",
+				"type": "Button",
+				"x": 300,
+				"y": 254
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "zero",
+				"text": "Try divide 0 by 0",
+				"type": "Button",
+				"x": 330,
+				"y": 285
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 15,
+				"hidden": false,
+				"id": "",
+				"text": "Cutscene and Minigame test are here",
+				"type": "StaticText",
+				"x": 300,
+				"y": 236
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "LCD Solid",
+				"fontsize": 25,
+				"hidden": false,
+				"id": "",
+				"text": "Selected Night:",
+				"type": "StaticText",
+				"x": 300,
+				"y": 23
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "LCD Solid",
+				"fontsize": 25,
+				"hidden": false,
+				"id": "",
+				"text": "Set using:",
+				"type": "StaticText",
+				"x": 470,
+				"y": 23
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 30,
+				"hidden": false,
+				"id": "unlock",
+				"text": "Lock everything",
+				"type": "StaticText",
+				"x": 300,
+				"y": 185
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "random",
+				"text": "Try %random(1,100)",
+				"type": "Button",
+				"x": 330,
+				"y": 300
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "1p",
+				"text": "Five",
+				"type": "StaticText",
+				"x": 43,
+				"y": 33
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "cat",
+				"text": "Cat Shrine",
+				"type": "Button",
+				"x": 483,
+				"y": 285
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "mat",
+				"text": "Menu Animation",
+				"type": "Button",
+				"x": 483,
+				"y": 300
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "full",
+				"text": "Fullscreen",
+				"type": "Button",
+				"x": 176,
+				"y": 46
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "wind",
+				"text": "Windowed",
+				"type": "Button",
+				"x": 184,
+				"y": 63
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "LCD Solid",
+				"fontsize": 25,
+				"hidden": false,
+				"id": "",
+				"text": "Full/Window:",
+				"type": "StaticText",
+				"x": 162,
+				"y": 23
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "hicb",
+				"text": "Hide cursor",
+				"type": "Button",
+				"x": 210,
+				"y": 300
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "refresh",
+				"text": "Refresh Menu",
+				"type": "Button",
+				"x": 210,
+				"y": 285
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "stopc",
+				"text": "Stop Audio\r\nChannel 40",
+				"type": "Button",
+				"x": 210,
+				"y": 255
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "showtitle",
+				"text": "Show title",
+				"type": "Button",
+				"x": 210,
+				"y": 240
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "hidetitle",
+				"text": "Hide title",
+				"type": "Button",
+				"x": 210,
+				"y": 225
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "",
+				"text": "Send msg debugger",
+				"type": "Button",
+				"x": 170,
+				"y": 210
+			}, {
+				"hidden": true,
+				"id": "Diamond",
+				"sprite": "DEVELOPERSPRITES\\Diamond_Cat_Very_Smal.png",
+				"type": "Image",
+				"x": 464,
+				"y": 234
+			}, {
+				"hidden": false,
+				"id": "faz",
+				"sprite": "DEVELOPERSPRITES\\faztokenRED.png",
+				"type": "Image",
+				"x": 0,
+				"y": 0
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "arrows",
+				"text": "Hide arrows",
+				"type": "Button",
+				"x": 203,
+				"y": 195
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "token",
+				"text": "Faztoken Blue",
+				"type": "Button",
+				"x": 190,
+				"y": 150
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "garred",
+				"text": "Faztoken Red",
+				"type": "Button",
+				"x": 190,
+				"y": 165
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "garr",
+				"text": "Show arrows",
+				"type": "Button",
+				"x": 203,
+				"y": 180
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "lua",
+				"text": "Execute Lua",
+				"type": "Button",
+				"x": 201,
+				"y": 91
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "except",
+				"text": "Runtime\r\nException",
+				"type": "Button",
+				"x": 211,
+				"y": 114
+			} ],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "Main Menu\\431.png",
+				"BackgroundMusic": "main.mp3",
+				"ButtonArrowColor": "217,155,251",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"FadeIn": true,
+				"FadeSpeed": 20,
+				"Panorama": false,
+				"StaticEffect": true
+			}
+		},
+		"MinigameCode": {
+			"code": [ {
+				"args": [ "start" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "testMinigame", "WhatDay" ],
+					"block": "minigamemenu"
+				} ]
+			}, {
+				"args": [ "gotomenu" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "testMinigame", "Main" ],
+					"block": "minigamemenu"
+				} ]
+			}, {
+				"args": [ "m" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": [ {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "",
+				"text": "Minigames Testing",
+				"type": "StaticText",
+				"x": 34,
+				"y": 27
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "start",
+				"text": "Start minig at night start",
+				"type": "Button",
+				"x": 155,
+				"y": 151
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "gotomenu",
+				"text": "Start minig and gotomenu Main",
+				"type": "Button",
+				"x": 155,
+				"y": 203
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 18,
+				"hidden": false,
+				"id": "",
+				"text": "it's a goto menu -> WhatDay",
+				"type": "StaticText",
+				"x": 155,
+				"y": 175
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "m",
+				"text": "GoTo Main",
+				"type": "Button",
+				"x": 482,
+				"y": 308
+			} ],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "DEVELOPERSPRITES\\304.png",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"Effect": "None",
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"MenuScroll": false,
+				"Panorama": false,
+				"Shader": "",
+				"StaticEffect": ""
+			}
+		},
+		"News": {
+			"code": [ {
+				"args": [ "80" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "NightLoad", "1" ],
+					"block": "set_data"
+				}, {
+					"args": [ "WhatDay" ],
+					"block": "goto_menu"
+				}, {
+					"args": [ "\"NightLoad\" is a data value used to inform the engine about which night to load." ],
+					"block": "comment"
+				} ]
+			}, {
+				"args": [],
+				"block": "user_left_clicked",
+				"subcode": [ {
+					"args": [ "NightLoad", "1" ],
+					"block": "set_data"
+				}, {
+					"args": [ "WhatDay" ],
+					"block": "goto_menu"
+				}, {
+					"args": [ "\"NightLoad\" is a data value used to inform the engine about which night to load." ],
+					"block": "comment"
+				} ]
+			} ],
+			"elements": [],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "539.png",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"Panorama": false,
+				"StaticEffect": false
+			}
+		},
+		"PanoramaTest": {
+			"code": [ {
+				"args": [],
+				"block": "user_left_clicked",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": [ {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "",
+				"text": "Click GoTo Main",
+				"type": "StaticText",
+				"x": 15,
+				"y": 277
+			} ],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "Cams\\PirateCove\\240.png",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"Effect": "None",
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"MenuScroll": false,
+				"Panorama": true,
+				"Shader": "",
+				"StaticEffect": ""
+			}
+		},
+		"SelectionMenu": {
+			"code": [ {
+				"args": [ "6am" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "6AM" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "afterover" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "AfterOver" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "en5" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "Ending5" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "en6" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "Ending6" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "en7" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "Ending7" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "gn_jumpscare" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "GN_jumpscare" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "gameover" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "GameOver" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "jumpscarepowerout" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "JumpscarePowerOut" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "cn" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "CustomNight" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "news" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "News" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "warning" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "Warning" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "whatday" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "WhatDay" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "loading" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "Loading" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "me" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "SelectionMenu" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "main" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "news" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "News" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "cut" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "CutscenesCode" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "mng" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "MinigameCode" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "cat" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "CatDiamond" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "animmm" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "AnimTesting" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "bkgcolortest" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "BackgroundColorTest" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [ "p4n" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": {
+				"0": [],
+				"1": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "6am",
+					"text": "6AM",
+					"type": "Button",
+					"x": 45,
+					"y": 48
+				},
+				"10": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "warning",
+					"text": "Warning",
+					"type": "Button",
+					"x": 50,
+					"y": 274
+				},
+				"11": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "whatday",
+					"text": "WhatDay",
+					"type": "Button",
+					"x": 381,
+					"y": 113
+				},
+				"12": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "afterover",
+					"text": "AfterOver",
+					"type": "Button",
+					"x": 380,
+					"y": 138
+				},
+				"13": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "gn_jumpscare",
+					"text": "GN_jumpscare",
+					"type": "Button",
+					"x": 380,
+					"y": 166
+				},
+				"14": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "me",
+					"text": "SelectionMenu (thismenu)",
+					"type": "Button",
+					"x": 257,
+					"y": 190
+				},
+				"15": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "cut",
+					"text": "CutsceneCode",
+					"type": "Button",
+					"x": 381,
+					"y": 236
+				},
+				"16": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "mng",
+					"text": "MinigameCode",
+					"type": "Button",
+					"x": 382,
+					"y": 263
+				},
+				"17": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "cat",
+					"text": "CatDiamond",
+					"type": "Button",
+					"x": 383,
+					"y": 68
+				},
+				"18": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "animmm",
+					"text": "AnimTesting",
+					"type": "Button",
+					"x": 380,
+					"y": 92
+				},
+				"19": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "bkgcolortest",
+					"text": "BackgroundColorTest",
+					"type": "Button",
+					"x": 296,
+					"y": 44
+				},
+				"2": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "news",
+					"text": "News",
+					"type": "Button",
+					"x": 46,
+					"y": 73
+				},
+				"20": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "p4n",
+					"text": "PanoramaTest",
+					"type": "Button",
+					"x": 364,
+					"y": 22
+				},
+				"21": {
+					"hidden": false,
+					"id": "",
+					"sprite": "DEVELOPERSPRITES\\Menu.png",
+					"type": "Image",
+					"x": 0,
+					"y": 0
+				},
+				"3": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "main",
+					"text": "Main",
+					"type": "Button",
+					"x": 49,
+					"y": 99
+				},
+				"4": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "en5",
+					"text": "Ending5",
+					"type": "Button",
+					"x": 47,
+					"y": 123
+				},
+				"5": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "en6",
+					"text": "Ending6",
+					"type": "Button",
+					"x": 49,
+					"y": 149
+				},
+				"6": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "en7",
+					"text": "Ending7",
+					"type": "Button",
+					"x": 48,
+					"y": 174
+				},
+				"7": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "cn",
+					"text": "CustomNight",
+					"type": "Button",
+					"x": 46,
+					"y": 201
+				},
+				"8": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "loading",
+					"text": "Loading",
+					"type": "Button",
+					"x": 49,
+					"y": 224
+				},
+				"9": {
+					"Blue": 255,
+					"Green": 255,
+					"Red": 255,
+					"fontname": "Consolas",
+					"fontsize": 30,
+					"hidden": false,
+					"id": "gameover",
+					"text": "GameOver",
+					"type": "Button",
+					"x": 47,
+					"y": 250
+				}
+			},
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"Effect": "None",
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"MenuScroll": false,
+				"Panorama": false,
+				"Shader": "",
+				"StaticEffect": false
+			}
+		},
+		"Warning": {
+			"code": [ {
+				"args": [ "10" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [],
+				"block": "user_left_clicked",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": [ {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Tahoma",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "",
+				"text": "WARNING!",
+				"type": "StaticText",
+				"x": 270,
+				"y": 126
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Tahoma",
+				"fontsize": 20,
+				"hidden": false,
+				"id": "",
+				"text": "This game contains flashing lights, loud  \r\n       noises, and lots of jumpscares!",
+				"type": "StaticText",
+				"x": 191,
+				"y": 156
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "",
+				"text": "fix the fucking boundaries",
+				"type": "StaticText",
+				"x": 141,
+				"y": 233
+			} ],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"FadeIn": true,
+				"FadeSpeed": 20,
+				"Panorama": false,
+				"StaticEffect": false
+			}
+		},
+		"What Day": {
+			"code": [ {
+				"args": [ "15" ],
+				"block": "every_num_ticks",
+				"subcode": [ {
+					"args": [ "WhatDay" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": [ {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "",
+				"text": "this menu is \"What Day\"",
+				"type": "StaticText",
+				"x": 157,
+				"y": 118
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "",
+				"text": "teleporting to custom WhatDay",
+				"type": "StaticText",
+				"x": 122,
+				"y": 200
+			} ],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "",
+				"BackgroundMusic": "music box.wav",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"Effect": "None",
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"MenuScroll": false,
+				"Panorama": false,
+				"Shader": "",
+				"StaticEffect": ""
+			}
+		},
+		"WhatDay": {
+			"code": [ {
+				"args": [ "3" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "blip3.wav", "5", false ],
+					"block": "play_sound"
+				} ]
+			}, {
+				"args": [ "4" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "blip2" ],
+					"block": "show_element"
+				}, {
+					"args": [ "blip1" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "Simple Blip Animation" ],
+					"block": "comment"
+				} ]
+			}, {
+				"args": [ "7" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "blip3" ],
+					"block": "show_element"
+				}, {
+					"args": [ "blip2" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "Simple Blip Animation" ],
+					"block": "comment"
+				} ]
+			}, {
+				"args": [ "9" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "blip3" ],
+					"block": "hide_element"
+				}, {
+					"args": [ "Simple Blip Animation" ],
+					"block": "comment"
+				} ]
+			}, {
+				"args": [ "80" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "Loading" ],
+					"block": "goto_menu"
+				} ]
+			}, {
+				"args": [],
+				"block": "on_menu_start",
+				"subcode": [ {
+					"args": [ "%data(NightLoad)", "==", "1" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "night1" ],
+						"block": "show_element"
+					} ]
+				}, {
+					"args": [ "%data(NightLoad)", "==", "2" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "night2" ],
+						"block": "show_element"
+					} ]
+				}, {
+					"args": [ "%data(NightLoad)", "==", "3" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "night3" ],
+						"block": "show_element"
+					} ]
+				}, {
+					"args": [ "%data(NightLoad)", "==", "4" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "night4" ],
+						"block": "show_element"
+					} ]
+				}, {
+					"args": [ "%data(NightLoad)", "==", "5" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "night5" ],
+						"block": "show_element"
+					} ]
+				}, {
+					"args": [ "%data(NightLoad)", "==", "6" ],
+					"block": "compare_values",
+					"subcode": [ {
+						"args": [ "night6" ],
+						"block": "show_element"
+					} ]
+				}, {
+					"args": [ "At this point, it checks the data value and displays the appropriate text corresponding to the current night" ],
+					"block": "comment"
+				} ]
+			} ],
+			"elements": [ {
+				"hidden": true,
+				"id": "night6",
+				"sprite": "WhatDay\\446.png",
+				"type": "Image",
+				"x": 245,
+				"y": 142
+			}, {
+				"hidden": true,
+				"id": "night1",
+				"sprite": "WhatDay\\453.png",
+				"type": "Image",
+				"x": 248,
+				"y": 142
+			}, {
+				"hidden": true,
+				"id": "night2",
+				"sprite": "WhatDay\\454.png",
+				"type": "Image",
+				"x": 246,
+				"y": 142
+			}, {
+				"hidden": true,
+				"id": "night3",
+				"sprite": "WhatDay\\472.png",
+				"type": "Image",
+				"x": 246,
+				"y": 142
+			}, {
+				"hidden": true,
+				"id": "night4",
+				"sprite": "WhatDay\\473.png",
+				"type": "Image",
+				"x": 246,
+				"y": 142
+			}, {
+				"hidden": true,
+				"id": "night5",
+				"sprite": "WhatDay\\474.png",
+				"type": "Image",
+				"x": 246,
+				"y": 142
+			}, {
+				"hidden": true,
+				"id": "night7",
+				"sprite": "WhatDay\\538.png",
+				"type": "Image",
+				"x": 243,
+				"y": 142
+			}, {
+				"hidden": false,
+				"id": "blip1",
+				"sprite": "BlipAnim\\01.png",
+				"type": "Image",
+				"x": 0,
+				"y": 0
+			}, {
+				"hidden": true,
+				"id": "blip2",
+				"sprite": "BlipAnim\\05.png",
+				"type": "Image",
+				"x": 0,
+				"y": 0
+			}, {
+				"hidden": true,
+				"id": "blip3",
+				"sprite": "BlipAnim\\09.png",
+				"type": "Image",
+				"x": 0,
+				"y": 0
+			} ],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": false,
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"Panorama": false,
+				"StaticEffect": false
+			}
+		},
+		"lua": {
+			"code": [ {
+				"args": [ "50" ],
+				"block": "current_tick_equals",
+				"subcode": [ {
+					"args": [ "MF_Error(\"Lua Work! :3\")" ],
+					"block": "execute_lua"
+				} ]
+			}, {
+				"args": [ "gae" ],
+				"block": "button_clicked",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": [ {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "",
+				"text": "Executing Lua: MF_Error()...",
+				"type": "StaticText",
+				"x": 124,
+				"y": 157
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "gae",
+				"text": "GoTo Main",
+				"type": "Button",
+				"x": 239,
+				"y": 205
+			}, {
+				"hidden": false,
+				"id": "",
+				"sprite": "DEVELOPERSPRITES\\Data Execution Prevention.png",
+				"type": "Image",
+				"x": 275,
+				"y": 87
+			} ],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"Effect": "None",
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"MenuScroll": false,
+				"Panorama": false,
+				"Shader": "",
+				"StaticEffect": ""
+			}
+		},
+		"whenimage": {
+			"code": [ {
+				"args": [],
+				"block": "user_left_clicked",
+				"subcode": [ {
+					"args": [ "Main" ],
+					"block": "goto_menu"
+				} ]
+			} ],
+			"elements": [ {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "Consolas",
+				"fontsize": 15,
+				"hidden": false,
+				"id": "",
+				"text": "(click goto main)",
+				"type": "StaticText",
+				"x": 506,
+				"y": 319
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "LCD Solid",
+				"fontsize": 40,
+				"hidden": false,
+				"id": "",
+				"text": "memz: i think i brok--",
+				"type": "StaticText",
+				"x": 143,
+				"y": 267
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "LCD Solid",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "",
+				"text": "Blocky",
+				"type": "StaticText",
+				"x": 110,
+				"y": 57
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "LCD Solid",
+				"fontsize": 36,
+				"hidden": false,
+				"id": "",
+				"text": "lily",
+				"type": "StaticText",
+				"x": 437,
+				"y": 42
+			}, {
+				"Blue": 255,
+				"Green": 255,
+				"Red": 255,
+				"fontname": "LCD Solid",
+				"fontsize": 32,
+				"hidden": false,
+				"id": "",
+				"text": "Visual Studio",
+				"type": "StaticText",
+				"x": 237,
+				"y": 23
+			} ],
+			"properties": {
+				"BackgroundColor": "0,0,0",
+				"BackgroundImage": "Cams\\Showstage\\2.png",
+				"BackgroundMusic": "",
+				"ButtonArrowColor": "255,255,255",
+				"ButtonArrowFont": "Consolas",
+				"ButtonArrowStr": ">>",
+				"ButtonArrows": true,
+				"Effect": "None",
+				"FadeIn": false,
+				"FadeSpeed": 20,
+				"MenuScroll": false,
+				"Panorama": false,
+				"Shader": "",
+				"StaticEffect": ""
+			}
+		}
+	},
+	"office": {
+		"animations": {
+			"camera": "Camera Monitor",
+			"mask": "Mask",
+			"powerout": ""
+		},
+		"battery": false,
+		"display": true,
+		"display2": true,
+		"fast": false,
+		"flashlight": false,
+		"keybind": "CTRL",
+		"mask": true,
+		"nightfont": "Segoe UI",
+		"objects": [ {
+			"animation": "Right Door",
+			"close_sound": "dooropenclose.mp3",
+			"id": "RightDoor",
+			"open_sound": "dooropenclose.mp3",
+			"position": [ 605, 5 ],
+			"type": "door"
+		}, {
+			"animation": "Left Door",
+			"close_sound": "SFXBible_12478.wav",
+			"id": "LeftDoor",
+			"open_sound": "SFXBible_12478.wav",
+			"position": [ 44, -1 ],
+			"type": "door"
+		}, {
+			"id": "LeftDoor",
+			"on_sprite": "1241.png",
+			"position": [ -2, 103 ],
+			"sprite": "122.png",
+			"trigger": [ 0, 0, 32, 32 ],
+			"type": "door_button"
+		}, {
+			"click_style": false,
+			"id": "LeftLight",
+			"on_sprite": "125.png",
+			"position": [ -2, 162 ],
+			"sound": "BallastHumMedium2.wav",
+			"sprite": "124.png",
+			"trigger": [ 0, 0, 32, 32 ],
+			"type": "light_button"
+		}, {
+			"id": "RightDoor",
+			"on_sprite": "135.png",
+			"position": [ 710, 109 ],
+			"sprite": "1341.png",
+			"trigger": [ 0, 0, 32, 32 ],
+			"type": "door_button"
+		}, {
+			"click_style": false,
+			"id": "RightLight",
+			"on_sprite": "47.png",
+			"position": [ 710, 167 ],
+			"sound": "BallastHumMedium2.wav",
+			"sprite": "134.png",
+			"trigger": [ 0, 0, 32, 32 ],
+			"type": "light_button"
+		}, {
+			"id": "GoldenFreddy",
+			"position": [ 196, 179 ],
+			"sprite": "YellowBear.png",
+			"type": "sprite"
+		}, {
+			"animation": "Fan",
+			"id": "fanAnimation",
+			"position": [ 366, 142 ],
+			"type": "animation"
+		}, {
+			"animation": "FreddySing",
+			"id": "FreddySing",
+			"position": [ 47, 96 ],
+			"type": "animation"
+		}, {
+			"id": "setpowa100",
+			"position": [ 285, 81 ],
+			"sprite": "DEVELOPERSPRITES\\setpower100.png",
+			"type": "sprite"
+		}, {
+			"id": "setpowa2",
+			"position": [ 311, 81 ],
+			"sprite": "DEVELOPERSPRITES\\setpower2.png",
+			"type": "sprite"
+		}, {
+			"id": "settime6",
+			"position": [ 364, 80 ],
+			"sprite": "DEVELOPERSPRITES\\settime6am.png",
+			"type": "sprite"
+		}, {
+			"id": "mainmenu",
+			"position": [ 337, 80 ],
+			"sprite": "DEVELOPERSPRITES\\gotomain.png",
+			"type": "sprite"
+		}, {
+			"id": "checkif",
+			"position": [ 504, 65 ],
+			"sprite": "DEVELOPERSPRITES\\checkgame.png",
+			"type": "sprite"
+		}, {
+			"id": "ifcheckfalse",
+			"position": [ 550, 64 ],
+			"sprite": "DEVELOPERSPRITES\\checkfalse.png",
+			"type": "sprite"
+		}, {
+			"id": "ifchecktrue",
+			"position": [ 550, 65 ],
+			"sprite": "DEVELOPERSPRITES\\checktrue.png",
+			"type": "sprite"
+		}, {
+			"id": "settime12",
+			"position": [ 391, 80 ],
+			"sprite": "DEVELOPERSPRITES\\settime12.png",
+			"type": "sprite"
+		}, {
+			"id": "setvar0",
+			"position": [ 525, 113 ],
+			"sprite": "DEVELOPERSPRITES\\setvar0.png",
+			"type": "sprite"
+		}, {
+			"id": "setvar1",
+			"position": [ 498, 113 ],
+			"sprite": "DEVELOPERSPRITES\\setvar1.png",
+			"type": "sprite"
+		}, {
+			"id": "checkvar",
+			"position": [ 513, 94 ],
+			"sprite": "DEVELOPERSPRITES\\checkvar.png",
+			"type": "sprite"
+		}, {
+			"id": "var0",
+			"position": [ 550, 100 ],
+			"sprite": "DEVELOPERSPRITES\\var0.png",
+			"type": "sprite"
+		}, {
+			"id": "var1",
+			"position": [ 550, 100 ],
+			"sprite": "DEVELOPERSPRITES\\var1.png",
+			"type": "sprite"
+		}, {
+			"id": "playsuono",
+			"position": [ 258, 60 ],
+			"sprite": "DEVELOPERSPRITES\\playsound.png",
+			"type": "sprite"
+		}, {
+			"id": "setofficealtro",
+			"position": [ 549, 177 ],
+			"sprite": "DEVELOPERSPRITES\\office.png",
+			"type": "sprite"
+		}, {
+			"id": "triggergf",
+			"position": [ 258, 80 ],
+			"sprite": "DEVELOPERSPRITES\\triggergf.png",
+			"type": "sprite"
+		}, {
+			"id": "disablepower",
+			"position": [ 202, 118 ],
+			"sprite": "DEVELOPERSPRITES\\disablepower.png",
+			"type": "sprite"
+		}, {
+			"id": "disabletime",
+			"position": [ 202, 99 ],
+			"sprite": "DEVELOPERSPRITES\\disabletime.png",
+			"type": "sprite"
+		}, {
+			"id": "enabletime",
+			"position": [ 229, 99 ],
+			"sprite": "DEVELOPERSPRITES\\enabletime.png",
+			"type": "sprite"
+		}, {
+			"id": "enablepower",
+			"position": [ 229, 118 ],
+			"sprite": "DEVELOPERSPRITES\\enablepower.png",
+			"type": "sprite"
+		}, {
+			"id": "foxy1",
+			"position": [ 284, 61 ],
+			"sprite": "DEVELOPERSPRITES\\foxy1.png",
+			"type": "sprite"
+		}, {
+			"id": "foxy2",
+			"position": [ 311, 62 ],
+			"sprite": "DEVELOPERSPRITES\\foxy2.png",
+			"type": "sprite"
+		}, {
+			"id": "foxy3",
+			"position": [ 337, 61 ],
+			"sprite": "DEVELOPERSPRITES\\foxy3.png",
+			"type": "sprite"
+		}, {
+			"id": "enableai",
+			"position": [ 201, 138 ],
+			"sprite": "DEVELOPERSPRITES\\enableai.png",
+			"type": "sprite"
+		}, {
+			"id": "disableai",
+			"position": [ 228, 136 ],
+			"sprite": "DEVELOPERSPRITES\\disableai.png",
+			"type": "sprite"
+		}, {
+			"id": "doorchica",
+			"position": [ 227, 157 ],
+			"sprite": "DEVELOPERSPRITES\\movedoorchica.png",
+			"type": "sprite"
+		}, {
+			"id": "doorbonnie",
+			"position": [ 201, 157 ],
+			"sprite": "DEVELOPERSPRITES\\movedoorbonnie.png",
+			"type": "sprite"
+		}, {
+			"id": "usage0",
+			"position": [ 417, 62 ],
+			"sprite": "DEVELOPERSPRITES\\usage0.png",
+			"type": "sprite"
+		}, {
+			"id": "usage1",
+			"position": [ 445, 61 ],
+			"sprite": "DEVELOPERSPRITES\\usage1.png",
+			"type": "sprite"
+		}, {
+			"id": "usage2",
+			"position": [ 418, 79 ],
+			"sprite": "DEVELOPERSPRITES\\usage2.png",
+			"type": "sprite"
+		}, {
+			"id": "usage3",
+			"position": [ 472, 61 ],
+			"sprite": "DEVELOPERSPRITES\\usage3.png",
+			"type": "sprite"
+		}, {
+			"id": "usage4",
+			"position": [ 446, 81 ],
+			"sprite": "DEVELOPERSPRITES\\usage4.png",
+			"type": "sprite"
+		}, {
+			"id": "usage5",
+			"position": [ 473, 81 ],
+			"sprite": "DEVELOPERSPRITES\\usage5.png",
+			"type": "sprite"
+		}, {
+			"id": "number0",
+			"position": [ 310, 125 ],
+			"sprite": "DEVELOPERSPRITES\\number0.png",
+			"type": "sprite"
+		}, {
+			"id": "number1",
+			"position": [ 310, 125 ],
+			"sprite": "DEVELOPERSPRITES\\number1.png",
+			"type": "sprite"
+		}, {
+			"id": "number2",
+			"position": [ 310, 125 ],
+			"sprite": "DEVELOPERSPRITES\\number2.png",
+			"type": "sprite"
+		}, {
+			"id": "number3",
+			"position": [ 310, 125 ],
+			"sprite": "DEVELOPERSPRITES\\number3.png",
+			"type": "sprite"
+		}, {
+			"id": "number4",
+			"position": [ 310, 125 ],
+			"sprite": "DEVELOPERSPRITES\\number4.png",
+			"type": "sprite"
+		}, {
+			"id": "number5",
+			"position": [ 310, 125 ],
+			"sprite": "DEVELOPERSPRITES\\number5.png",
+			"type": "sprite"
+		}, {
+			"id": "number6",
+			"position": [ 310, 125 ],
+			"sprite": "DEVELOPERSPRITES\\number6.png",
+			"type": "sprite"
+		}, {
+			"id": "number7",
+			"position": [ 310, 125 ],
+			"sprite": "DEVELOPERSPRITES\\number7.png",
+			"type": "sprite"
+		}, {
+			"id": "number8",
+			"position": [ 310, 125 ],
+			"sprite": "DEVELOPERSPRITES\\number8.png",
+			"type": "sprite"
+		}, {
+			"id": "number9",
+			"position": [ 310, 125 ],
+			"sprite": "DEVELOPERSPRITES\\number9.png",
+			"type": "sprite"
+		}, {
+			"id": "number1_10",
+			"position": [ 300, 125 ],
+			"sprite": "DEVELOPERSPRITES\\number1.png",
+			"type": "sprite"
+		}, {
+			"id": "sprite81",
+			"position": [ 278, 111 ],
+			"sprite": "DEVELOPERSPRITES\\boykisseraitext.png",
+			"type": "sprite"
+		}, {
+			"id": "freddynose",
+			"position": [ 391, 62 ],
+			"sprite": "DEVELOPERSPRITES\\freddynose.png",
+			"type": "sprite"
+		}, {
+			"id": "musicboxai_plus",
+			"position": [ 291, 144 ],
+			"sprite": "DEVELOPERSPRITES\\plus.png",
+			"type": "sprite"
+		}, {
+			"id": "musicboxai_minus",
+			"position": [ 312, 144 ],
+			"sprite": "DEVELOPERSPRITES\\minus.png",
+			"type": "sprite"
+		}, {
+			"id": "number1_20",
+			"position": [ 300, 125 ],
+			"sprite": "DEVELOPERSPRITES\\number2.png",
+			"type": "sprite"
+		}, {
+			"id": "fasttrue",
+			"position": [ 229, 80 ],
+			"sprite": "DEVELOPERSPRITES\\fasttrue.png",
+			"type": "sprite"
+		}, {
+			"id": "fastfalse",
+			"position": [ 229, 60 ],
+			"sprite": "DEVELOPERSPRITES\\fastfalse.png",
+			"type": "sprite"
+		}, {
+			"id": "strongtrue",
+			"position": [ 201, 81 ],
+			"sprite": "DEVELOPERSPRITES\\strongtrue.png",
+			"type": "sprite"
+		}, {
+			"id": "strongfalse",
+			"position": [ 202, 60 ],
+			"sprite": "DEVELOPERSPRITES\\strongfalse.png",
+			"type": "sprite"
+		}, {
+			"id": "sprite794",
+			"position": [ 535, 181 ],
+			"sprite": "DEVELOPERSPRITES\\number2.png",
+			"type": "sprite"
+		}, {
+			"id": "sprite699",
+			"position": [ 535, 202 ],
+			"sprite": "DEVELOPERSPRITES\\number3.png",
+			"type": "sprite"
+		}, {
+			"id": "goto3",
+			"position": [ 549, 200 ],
+			"sprite": "DEVELOPERSPRITES\\office.png",
+			"type": "sprite"
+		}, {
+			"id": "goto4",
+			"position": [ 549, 225 ],
+			"sprite": "DEVELOPERSPRITES\\office.png",
+			"type": "sprite"
+		}, {
+			"id": "sprite699",
+			"position": [ 535, 228 ],
+			"sprite": "DEVELOPERSPRITES\\number4.png",
+			"type": "sprite"
+		}, {
+			"id": "checkgay",
+			"position": [ 365, 61 ],
+			"sprite": "DEVELOPERSPRITES\\checkgay.png",
+			"type": "sprite"
+		}, {
+			"id": "bewlopan",
+			"position": [ 476, 215 ],
+			"sprite": "DEVELOPERSPRITES\\Sticky Note.png",
+			"type": "sprite"
+		}, {
+			"id": "abovepanorama",
+			"position": [ 476, 246 ],
+			"sprite": "DEVELOPERSPRITES\\Sticky Note.png",
+			"type": "sprite"
+		}, {
+			"id": "resetanimshit",
+			"position": [ 174, 61 ],
+			"sprite": "DEVELOPERSPRITES\\resetanimatronics.png",
+			"type": "sprite"
+		}, {
+			"id": "nighttextshow",
+			"position": [ 174, 80 ],
+			"sprite": "DEVELOPERSPRITES\\nighttextshow.png",
+			"type": "sprite"
+		}, {
+			"id": "nighttexthide",
+			"position": [ 174, 100 ],
+			"sprite": "DEVELOPERSPRITES\\nighttexthide.png",
+			"type": "sprite"
+		}, {
+			"id": "smggdebug",
+			"position": [ 174, 119 ],
+			"sprite": "DEVELOPERSPRITES\\sendmessagedebug.png",
+			"type": "sprite"
+		}, {
+			"id": "dataval",
+			"position": [ 512, 144 ],
+			"sprite": "DEVELOPERSPRITES\\dataval.png",
+			"type": "sprite"
+		}, {
+			"id": "datavalfalse",
+			"position": [ 550, 139 ],
+			"sprite": "DEVELOPERSPRITES\\datavalfalse.png",
+			"type": "sprite"
+		}, {
+			"id": "datavaltrue",
+			"position": [ 549, 140 ],
+			"sprite": "DEVELOPERSPRITES\\datavaltrue.png",
+			"type": "sprite"
+		} ],
+		"office": {
+			"nightfont": "LCD Solid"
+		},
+		"office2": {
+			"nightfont": "LCD Solid"
+		},
+		"panorama": true,
+		"power": {
+			"animatronic": "NPC_PowerOutAI",
+			"enabled": true,
+			"starting_level": 100,
+			"ucn": true
+		},
+		"states": {
+			"Default": "Office\\39.png",
+			"LeftLight:Bonnie": "Office\\225.png",
+			"LeftLight:Default": "Office\\58.png",
+			"LeftLight:Foxy": "Office\\58.png",
+			"LeftLight:Foxy,Bonnie": "Office\\225.png",
+			"RightLight:Chica": "Office\\227.png",
+			"RightLight:Default": "Office\\127.png",
+			"poweoutFreddyLight": "Office\\305.png",
+			"powerout": "Office\\304.png",
+			"powerout_black": "black.png"
+		},
+		"strong": true,
+		"textfont": "LCD Solid",
+		"toggle": true,
+		"toxic": false,
+		"uibuttons": {
+			"camera": {
+				"image": "e.defaultcamera",
+				"position": [ 295, 312 ]
+			},
+			"mask": {
+				"image": "e.defaultmask",
+				"position": [ 296, 18 ]
+			}
+		}
+	},
+	"offices": {
+		"office": {
+			"animations": {
+				"camera": "Camera Monitor",
+				"mask": "Mask",
+				"powerout": ""
+			},
+			"battery": false,
+			"display": true,
+			"display2": true,
+			"fast": false,
+			"flashlight": false,
+			"keybind": "CTRL",
+			"mask": true,
+			"nightfont": "Segoe UI",
+			"objects": [ {
+				"animation": "Right Door",
+				"close_sound": "dooropenclose.mp3",
+				"id": "RightDoor",
+				"open_sound": "dooropenclose.mp3",
+				"position": [ 605, 5 ],
+				"type": "door"
+			}, {
+				"animation": "Left Door",
+				"close_sound": "SFXBible_12478.wav",
+				"id": "LeftDoor",
+				"open_sound": "SFXBible_12478.wav",
+				"position": [ 44, -1 ],
+				"type": "door"
+			}, {
+				"id": "LeftDoor",
+				"on_sprite": "1241.png",
+				"position": [ -2, 103 ],
+				"sprite": "122.png",
+				"trigger": [ 0, 0, 32, 32 ],
+				"type": "door_button"
+			}, {
+				"click_style": false,
+				"id": "LeftLight",
+				"on_sprite": "125.png",
+				"position": [ -2, 162 ],
+				"sound": "BallastHumMedium2.wav",
+				"sprite": "124.png",
+				"trigger": [ 0, 0, 32, 32 ],
+				"type": "light_button"
+			}, {
+				"id": "RightDoor",
+				"on_sprite": "135.png",
+				"position": [ 710, 109 ],
+				"sprite": "1341.png",
+				"trigger": [ 0, 0, 32, 32 ],
+				"type": "door_button"
+			}, {
+				"click_style": false,
+				"id": "RightLight",
+				"on_sprite": "47.png",
+				"position": [ 710, 167 ],
+				"sound": "BallastHumMedium2.wav",
+				"sprite": "134.png",
+				"trigger": [ 0, 0, 32, 32 ],
+				"type": "light_button"
+			}, {
+				"id": "GoldenFreddy",
+				"position": [ 196, 179 ],
+				"sprite": "YellowBear.png",
+				"type": "sprite"
+			}, {
+				"animation": "Fan",
+				"id": "fanAnimation",
+				"position": [ 366, 142 ],
+				"type": "animation"
+			}, {
+				"animation": "FreddySing",
+				"id": "FreddySing",
+				"position": [ 47, 96 ],
+				"type": "animation"
+			}, {
+				"id": "setpowa100",
+				"position": [ 285, 81 ],
+				"sprite": "DEVELOPERSPRITES\\setpower100.png",
+				"type": "sprite"
+			}, {
+				"id": "setpowa2",
+				"position": [ 311, 81 ],
+				"sprite": "DEVELOPERSPRITES\\setpower2.png",
+				"type": "sprite"
+			}, {
+				"id": "settime6",
+				"position": [ 364, 80 ],
+				"sprite": "DEVELOPERSPRITES\\settime6am.png",
+				"type": "sprite"
+			}, {
+				"id": "mainmenu",
+				"position": [ 337, 80 ],
+				"sprite": "DEVELOPERSPRITES\\gotomain.png",
+				"type": "sprite"
+			}, {
+				"id": "checkif",
+				"position": [ 504, 65 ],
+				"sprite": "DEVELOPERSPRITES\\checkgame.png",
+				"type": "sprite"
+			}, {
+				"id": "ifcheckfalse",
+				"position": [ 550, 64 ],
+				"sprite": "DEVELOPERSPRITES\\checkfalse.png",
+				"type": "sprite"
+			}, {
+				"id": "ifchecktrue",
+				"position": [ 550, 65 ],
+				"sprite": "DEVELOPERSPRITES\\checktrue.png",
+				"type": "sprite"
+			}, {
+				"id": "settime12",
+				"position": [ 391, 80 ],
+				"sprite": "DEVELOPERSPRITES\\settime12.png",
+				"type": "sprite"
+			}, {
+				"id": "setvar0",
+				"position": [ 525, 113 ],
+				"sprite": "DEVELOPERSPRITES\\setvar0.png",
+				"type": "sprite"
+			}, {
+				"id": "setvar1",
+				"position": [ 498, 113 ],
+				"sprite": "DEVELOPERSPRITES\\setvar1.png",
+				"type": "sprite"
+			}, {
+				"id": "checkvar",
+				"position": [ 513, 94 ],
+				"sprite": "DEVELOPERSPRITES\\checkvar.png",
+				"type": "sprite"
+			}, {
+				"id": "var0",
+				"position": [ 550, 100 ],
+				"sprite": "DEVELOPERSPRITES\\var0.png",
+				"type": "sprite"
+			}, {
+				"id": "var1",
+				"position": [ 550, 100 ],
+				"sprite": "DEVELOPERSPRITES\\var1.png",
+				"type": "sprite"
+			}, {
+				"id": "playsuono",
+				"position": [ 258, 60 ],
+				"sprite": "DEVELOPERSPRITES\\playsound.png",
+				"type": "sprite"
+			}, {
+				"id": "setofficealtro",
+				"position": [ 549, 177 ],
+				"sprite": "DEVELOPERSPRITES\\office.png",
+				"type": "sprite"
+			}, {
+				"id": "triggergf",
+				"position": [ 258, 80 ],
+				"sprite": "DEVELOPERSPRITES\\triggergf.png",
+				"type": "sprite"
+			}, {
+				"id": "disablepower",
+				"position": [ 202, 118 ],
+				"sprite": "DEVELOPERSPRITES\\disablepower.png",
+				"type": "sprite"
+			}, {
+				"id": "disabletime",
+				"position": [ 202, 99 ],
+				"sprite": "DEVELOPERSPRITES\\disabletime.png",
+				"type": "sprite"
+			}, {
+				"id": "enabletime",
+				"position": [ 229, 99 ],
+				"sprite": "DEVELOPERSPRITES\\enabletime.png",
+				"type": "sprite"
+			}, {
+				"id": "enablepower",
+				"position": [ 229, 118 ],
+				"sprite": "DEVELOPERSPRITES\\enablepower.png",
+				"type": "sprite"
+			}, {
+				"id": "foxy1",
+				"position": [ 284, 61 ],
+				"sprite": "DEVELOPERSPRITES\\foxy1.png",
+				"type": "sprite"
+			}, {
+				"id": "foxy2",
+				"position": [ 311, 62 ],
+				"sprite": "DEVELOPERSPRITES\\foxy2.png",
+				"type": "sprite"
+			}, {
+				"id": "foxy3",
+				"position": [ 337, 61 ],
+				"sprite": "DEVELOPERSPRITES\\foxy3.png",
+				"type": "sprite"
+			}, {
+				"id": "enableai",
+				"position": [ 201, 138 ],
+				"sprite": "DEVELOPERSPRITES\\enableai.png",
+				"type": "sprite"
+			}, {
+				"id": "disableai",
+				"position": [ 228, 136 ],
+				"sprite": "DEVELOPERSPRITES\\disableai.png",
+				"type": "sprite"
+			}, {
+				"id": "doorchica",
+				"position": [ 227, 157 ],
+				"sprite": "DEVELOPERSPRITES\\movedoorchica.png",
+				"type": "sprite"
+			}, {
+				"id": "doorbonnie",
+				"position": [ 201, 157 ],
+				"sprite": "DEVELOPERSPRITES\\movedoorbonnie.png",
+				"type": "sprite"
+			}, {
+				"id": "usage0",
+				"position": [ 417, 62 ],
+				"sprite": "DEVELOPERSPRITES\\usage0.png",
+				"type": "sprite"
+			}, {
+				"id": "usage1",
+				"position": [ 445, 61 ],
+				"sprite": "DEVELOPERSPRITES\\usage1.png",
+				"type": "sprite"
+			}, {
+				"id": "usage2",
+				"position": [ 418, 79 ],
+				"sprite": "DEVELOPERSPRITES\\usage2.png",
+				"type": "sprite"
+			}, {
+				"id": "usage3",
+				"position": [ 472, 61 ],
+				"sprite": "DEVELOPERSPRITES\\usage3.png",
+				"type": "sprite"
+			}, {
+				"id": "usage4",
+				"position": [ 446, 81 ],
+				"sprite": "DEVELOPERSPRITES\\usage4.png",
+				"type": "sprite"
+			}, {
+				"id": "usage5",
+				"position": [ 473, 81 ],
+				"sprite": "DEVELOPERSPRITES\\usage5.png",
+				"type": "sprite"
+			}, {
+				"id": "number0",
+				"position": [ 310, 125 ],
+				"sprite": "DEVELOPERSPRITES\\number0.png",
+				"type": "sprite"
+			}, {
+				"id": "number1",
+				"position": [ 310, 125 ],
+				"sprite": "DEVELOPERSPRITES\\number1.png",
+				"type": "sprite"
+			}, {
+				"id": "number2",
+				"position": [ 310, 125 ],
+				"sprite": "DEVELOPERSPRITES\\number2.png",
+				"type": "sprite"
+			}, {
+				"id": "number3",
+				"position": [ 310, 125 ],
+				"sprite": "DEVELOPERSPRITES\\number3.png",
+				"type": "sprite"
+			}, {
+				"id": "number4",
+				"position": [ 310, 125 ],
+				"sprite": "DEVELOPERSPRITES\\number4.png",
+				"type": "sprite"
+			}, {
+				"id": "number5",
+				"position": [ 310, 125 ],
+				"sprite": "DEVELOPERSPRITES\\number5.png",
+				"type": "sprite"
+			}, {
+				"id": "number6",
+				"position": [ 310, 125 ],
+				"sprite": "DEVELOPERSPRITES\\number6.png",
+				"type": "sprite"
+			}, {
+				"id": "number7",
+				"position": [ 310, 125 ],
+				"sprite": "DEVELOPERSPRITES\\number7.png",
+				"type": "sprite"
+			}, {
+				"id": "number8",
+				"position": [ 310, 125 ],
+				"sprite": "DEVELOPERSPRITES\\number8.png",
+				"type": "sprite"
+			}, {
+				"id": "number9",
+				"position": [ 310, 125 ],
+				"sprite": "DEVELOPERSPRITES\\number9.png",
+				"type": "sprite"
+			}, {
+				"id": "number1_10",
+				"position": [ 300, 125 ],
+				"sprite": "DEVELOPERSPRITES\\number1.png",
+				"type": "sprite"
+			}, {
+				"id": "sprite81",
+				"position": [ 278, 111 ],
+				"sprite": "DEVELOPERSPRITES\\boykisseraitext.png",
+				"type": "sprite"
+			}, {
+				"id": "freddynose",
+				"position": [ 391, 62 ],
+				"sprite": "DEVELOPERSPRITES\\freddynose.png",
+				"type": "sprite"
+			}, {
+				"id": "musicboxai_plus",
+				"position": [ 291, 144 ],
+				"sprite": "DEVELOPERSPRITES\\plus.png",
+				"type": "sprite"
+			}, {
+				"id": "musicboxai_minus",
+				"position": [ 312, 144 ],
+				"sprite": "DEVELOPERSPRITES\\minus.png",
+				"type": "sprite"
+			}, {
+				"id": "number1_20",
+				"position": [ 300, 125 ],
+				"sprite": "DEVELOPERSPRITES\\number2.png",
+				"type": "sprite"
+			}, {
+				"id": "fasttrue",
+				"position": [ 229, 80 ],
+				"sprite": "DEVELOPERSPRITES\\fasttrue.png",
+				"type": "sprite"
+			}, {
+				"id": "fastfalse",
+				"position": [ 229, 60 ],
+				"sprite": "DEVELOPERSPRITES\\fastfalse.png",
+				"type": "sprite"
+			}, {
+				"id": "strongtrue",
+				"position": [ 201, 81 ],
+				"sprite": "DEVELOPERSPRITES\\strongtrue.png",
+				"type": "sprite"
+			}, {
+				"id": "strongfalse",
+				"position": [ 202, 60 ],
+				"sprite": "DEVELOPERSPRITES\\strongfalse.png",
+				"type": "sprite"
+			}, {
+				"id": "sprite794",
+				"position": [ 535, 181 ],
+				"sprite": "DEVELOPERSPRITES\\number2.png",
+				"type": "sprite"
+			}, {
+				"id": "sprite699",
+				"position": [ 535, 202 ],
+				"sprite": "DEVELOPERSPRITES\\number3.png",
+				"type": "sprite"
+			}, {
+				"id": "goto3",
+				"position": [ 549, 200 ],
+				"sprite": "DEVELOPERSPRITES\\office.png",
+				"type": "sprite"
+			}, {
+				"id": "goto4",
+				"position": [ 549, 225 ],
+				"sprite": "DEVELOPERSPRITES\\office.png",
+				"type": "sprite"
+			}, {
+				"id": "sprite699",
+				"position": [ 535, 228 ],
+				"sprite": "DEVELOPERSPRITES\\number4.png",
+				"type": "sprite"
+			}, {
+				"id": "checkgay",
+				"position": [ 365, 61 ],
+				"sprite": "DEVELOPERSPRITES\\checkgay.png",
+				"type": "sprite"
+			}, {
+				"id": "bewlopan",
+				"position": [ 476, 215 ],
+				"sprite": "DEVELOPERSPRITES\\Sticky Note.png",
+				"type": "sprite"
+			}, {
+				"id": "abovepanorama",
+				"position": [ 476, 246 ],
+				"sprite": "DEVELOPERSPRITES\\Sticky Note.png",
+				"type": "sprite"
+			}, {
+				"id": "resetanimshit",
+				"position": [ 174, 61 ],
+				"sprite": "DEVELOPERSPRITES\\resetanimatronics.png",
+				"type": "sprite"
+			}, {
+				"id": "nighttextshow",
+				"position": [ 174, 80 ],
+				"sprite": "DEVELOPERSPRITES\\nighttextshow.png",
+				"type": "sprite"
+			}, {
+				"id": "nighttexthide",
+				"position": [ 174, 100 ],
+				"sprite": "DEVELOPERSPRITES\\nighttexthide.png",
+				"type": "sprite"
+			}, {
+				"id": "smggdebug",
+				"position": [ 174, 119 ],
+				"sprite": "DEVELOPERSPRITES\\sendmessagedebug.png",
+				"type": "sprite"
+			}, {
+				"id": "dataval",
+				"position": [ 512, 144 ],
+				"sprite": "DEVELOPERSPRITES\\dataval.png",
+				"type": "sprite"
+			}, {
+				"id": "datavalfalse",
+				"position": [ 550, 139 ],
+				"sprite": "DEVELOPERSPRITES\\datavalfalse.png",
+				"type": "sprite"
+			}, {
+				"id": "datavaltrue",
+				"position": [ 549, 140 ],
+				"sprite": "DEVELOPERSPRITES\\datavaltrue.png",
+				"type": "sprite"
+			} ],
+			"office": {
+				"nightfont": "LCD Solid"
+			},
+			"office2": {
+				"nightfont": "LCD Solid"
+			},
+			"panorama": true,
+			"power": {
+				"animatronic": "NPC_PowerOutAI",
+				"enabled": true,
+				"starting_level": 100,
+				"ucn": true
+			},
+			"states": {
+				"Default": "Office\\39.png",
+				"LeftLight:Bonnie": "Office\\225.png",
+				"LeftLight:Default": "Office\\58.png",
+				"LeftLight:Foxy": "Office\\58.png",
+				"LeftLight:Foxy,Bonnie": "Office\\225.png",
+				"RightLight:Chica": "Office\\227.png",
+				"RightLight:Default": "Office\\127.png",
+				"poweoutFreddyLight": "Office\\305.png",
+				"powerout": "Office\\304.png",
+				"powerout_black": "black.png"
+			},
+			"strong": true,
+			"textfont": "LCD Solid",
+			"toggle": true,
+			"toxic": false,
+			"uibuttons": {
+				"camera": {
+					"image": "e.defaultcamera",
+					"position": [ 295, 312 ]
+				},
+				"mask": {
+					"image": "e.defaultmask",
+					"position": [ 296, 18 ]
+				}
+			}
+		},
+		"office2": {
+			"animations": {
+				"camera": "Camera Monitor",
+				"mask": "Mask",
+				"powerout": ""
+			},
+			"battery": true,
+			"cameras": true,
+			"display": true,
+			"display2": true,
+			"fast": false,
+			"flashlight": true,
+			"keybind": "CTRL",
+			"mask": true,
+			"nightfont": "",
+			"objects": [ {
+				"id": "setofficenormale",
+				"position": [ 503, 233 ],
+				"sprite": "DEVELOPERSPRITES\\office2.png",
+				"type": "sprite"
+			}, {
+				"id": "sprite590",
+				"position": [ 493, 238 ],
+				"sprite": "DEVELOPERSPRITES\\number1.png",
+				"type": "sprite"
+			}, {
+				"id": "goto3",
+				"position": [ 503, 203 ],
+				"sprite": "DEVELOPERSPRITES\\office2.png",
+				"type": "sprite"
+			}, {
+				"id": "sprite81",
+				"position": [ 492, 208 ],
+				"sprite": "DEVELOPERSPRITES\\number3.png",
+				"type": "sprite"
+			}, {
+				"id": "sprite661",
+				"position": [ 492, 181 ],
+				"sprite": "DEVELOPERSPRITES\\number4.png",
+				"type": "sprite"
+			}, {
+				"id": "goto4",
+				"position": [ 504, 175 ],
+				"sprite": "DEVELOPERSPRITES\\office2.png",
+				"type": "sprite"
+			} ],
+			"panorama": true,
+			"power": {
+				"animatronic": "NPC_PowerOutAI",
+				"enabled": true,
+				"starting_level": 100,
+				"ucn": true
+			},
+			"states": {
+				"Default": "DEVELOPERSPRITES\\93.png",
+				"Flashlight:Default": "DEVELOPERSPRITES\\124.png"
+			},
+			"strong": false,
+			"textfont": "LCD Solid",
+			"toggle": true,
+			"toxic": true,
+			"uibuttons": {
+				"camera": {
+					"image": "e.defaultcamera",
+					"position": [ 415, 315 ]
+				},
+				"mask": {
+					"image": "e.defaultmask",
+					"position": [ 183, 315 ]
+				}
+			}
+		},
+		"office3": {
+			"animations": {
+				"camera": "Camera Monitor",
+				"mask": "",
+				"powerout": ""
+			},
+			"battery": false,
+			"cameras": true,
+			"display": true,
+			"display2": true,
+			"fast": true,
+			"flashlight": false,
+			"keybind": "CTRL",
+			"mask": false,
+			"nightfont": "",
+			"objects": [ {
+				"id": "campanel",
+				"position": [ 846, 75 ],
+				"sprite": "DEVELOPERSPRITES\\Bring_Up_Monitor.png",
+				"type": "sprite"
+			}, {
+				"id": "setofficenormale",
+				"position": [ 240, 146 ],
+				"sprite": "DEVELOPERSPRITES\\office2.png",
+				"type": "sprite"
+			}, {
+				"id": "setofficealtro",
+				"position": [ 241, 117 ],
+				"sprite": "DEVELOPERSPRITES\\office2.png",
+				"type": "sprite"
+			}, {
+				"id": "goto4",
+				"position": [ 241, 90 ],
+				"sprite": "DEVELOPERSPRITES\\office2.png",
+				"type": "sprite"
+			}, {
+				"id": "sprite115",
+				"position": [ 273, 149 ],
+				"sprite": "DEVELOPERSPRITES\\number1.png",
+				"type": "sprite"
+			}, {
+				"id": "sprite55",
+				"position": [ 273, 121 ],
+				"sprite": "DEVELOPERSPRITES\\number2.png",
+				"type": "sprite"
+			}, {
+				"id": "sprite974",
+				"position": [ 273, 96 ],
+				"sprite": "DEVELOPERSPRITES\\number4.png",
+				"type": "sprite"
+			} ],
+			"panorama": false,
+			"power": {
+				"animatronic": "",
+				"enabled": false,
+				"starting_level": 100,
+				"ucn": false
+			},
+			"states": {
+				"Default": "DEVELOPERSPRITES\\office3.jpg"
+			},
+			"strong": false,
+			"textfont": "",
+			"toggle": true,
+			"toxic": false,
+			"uibuttons": {
+				"camera": {
+					"image": "e.defaultcamera",
+					"position": [ 272, 387 ]
+				},
+				"mask": {
+					"image": "e.defaultmask",
+					"position": [ 175, 315 ]
+				}
+			}
+		},
+		"office4": {
+			"animations": {
+				"camera": "Camera Monitor",
+				"mask": "",
+				"powerout": ""
+			},
+			"battery": false,
+			"cameras": true,
+			"display": true,
+			"display2": true,
+			"fast": false,
+			"flashlight": false,
+			"keybind": "CTRL",
+			"mask": false,
+			"nightfont": "",
+			"objects": [ {
+				"id": "frontttt",
+				"position": [ 373, 16 ],
+				"sprite": "DEVELOPERSPRITES\\Forward.png",
+				"type": "sprite"
+			}, {
+				"id": "backkk",
+				"position": [ 251, 17 ],
+				"sprite": "DEVELOPERSPRITES\\Back.png",
+				"type": "sprite"
+			}, {
+				"id": "sprite794",
+				"position": [ 147, 162 ],
+				"sprite": "DEVELOPERSPRITES\\number1.png",
+				"type": "sprite"
+			}, {
+				"id": "sprite699",
+				"position": [ 147, 182 ],
+				"sprite": "DEVELOPERSPRITES\\number2.png",
+				"type": "sprite"
+			}, {
+				"id": "sprite590",
+				"position": [ 147, 201 ],
+				"sprite": "DEVELOPERSPRITES\\number3.png",
+				"type": "sprite"
+			}, {
+				"id": "goto3",
+				"position": [ 162, 197 ],
+				"sprite": "DEVELOPERSPRITES\\office2.png",
+				"type": "sprite"
+			}, {
+				"id": "setofficealtro",
+				"position": [ 162, 180 ],
+				"sprite": "DEVELOPERSPRITES\\office2.png",
+				"type": "sprite"
+			}, {
+				"id": "setofficenormale",
+				"position": [ 162, 161 ],
+				"sprite": "DEVELOPERSPRITES\\office2.png",
+				"type": "sprite"
+			} ],
+			"panorama": false,
+			"power": {
+				"animatronic": "",
+				"enabled": false,
+				"starting_level": 100,
+				"ucn": false
+			},
+			"states": {
+				"Default": "DEVELOPERSPRITES\\office4centro.png",
+				"destra": "DEVELOPERSPRITES\\office4destro.png",
+				"predestra": "DEVELOPERSPRITES\\office4predestra.png",
+				"presinistra": "DEVELOPERSPRITES\\office4presinistra.png",
+				"quasidestra": "DEVELOPERSPRITES\\office4quasidestra.png",
+				"quasisinistra": "DEVELOPERSPRITES\\office4quasisinistra.png",
+				"sinistra": "DEVELOPERSPRITES\\office4sinistra.png"
+			},
+			"strong": false,
+			"textfont": "",
+			"toggle": true,
+			"toxic": false,
+			"uibuttons": {
+				"camera": {
+					"image": "e.defaultcamera",
+					"position": [ 412, 474 ]
+				},
+				"mask": {
+					"image": "e.defaultmask",
+					"position": [ 175, 315 ]
+				}
+			}
+		}
+	},
+	"sounds": {
+		"ambience": "office.wav",
+		"animatronic_move": [ "animatronicmoved.mp3", "DEVELOPERAUDIO\\walk2.wav", "DEVELOPERAUDIO\\walk1.wav", "DEVELOPERAUDIO\\walk5.wav" ],
+		"blip": "blip3.wav",
+		"camdown": "tablet.mp3",
+		"camup": "tablet.mp3",
+		"flashlight": "BallastHumMedium2.wav",
+		"maskbreathing": "DEVELOPERAUDIO\\deepbreaths.wav",
+		"maskoff": "DEVELOPERAUDIO\\MaskOff.wav",
+		"maskon": "DEVELOPERAUDIO\\MaskOn.wav",
+		"masktoxic": "DEVELOPERAUDIO\\breathing.wav",
+		"music_box_run_out": "music box.wav",
+		"phone_calls": [ "Calls\\phonecall_night1.mp3", "Calls\\phonecall_night2.mp3", "Calls\\phonecall_night3.mp3", "Calls\\phonecall_night4.mp3", "Calls\\phonecall_night5.mp3", "silence.mp3", "silence.mp3" ],
+		"powerout": "powerdown.wav",
+		"signal_interrupted": "garble2.mp3",
+		"stare": "Creeps.mp3"
+	}
+}

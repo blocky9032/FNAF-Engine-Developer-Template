@@ -1,0 +1,634 @@
+[ {
+	"duration": 1,
+	"sprite": "lily\\frame1.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame10.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame100.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame101.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame102.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame103.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame104.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame105.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame106.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame107.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame108.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame109.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame110.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame111.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame112.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame113.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame114.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame115.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame116.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame117.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame118.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame119.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame120.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame121.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame122.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame123.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame124.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame125.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame126.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame127.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame128.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame129.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame130.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame131.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame132.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame133.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame134.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame135.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame136.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame137.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame138.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame139.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame140.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame141.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame142.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame143.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame144.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame145.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame146.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame147.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame148.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame149.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame150.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame151.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame152.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame153.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame154.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame155.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame156.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame157.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame158.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame159.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame160.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame161.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame162.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame163.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame164.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame165.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame166.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame167.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame168.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame169.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame170.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame171.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame172.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame173.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame174.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame175.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame176.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame177.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame178.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame179.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame180.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame181.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame182.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame183.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame184.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame185.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame186.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame187.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame188.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame189.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame190.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame191.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame192.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame193.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame194.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame195.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame196.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame197.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame198.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame199.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame20.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame200.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame201.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame202.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame203.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame204.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame205.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame206.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame207.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame208.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame209.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame210.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame211.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame212.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame213.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame214.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame215.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame216.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame217.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame218.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame219.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame220.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame221.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame222.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame223.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame224.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame225.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame226.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame227.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame228.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame229.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame230.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame231.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame232.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame233.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame234.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame235.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame236.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame237.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame238.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame239.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame240.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame241.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame242.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame243.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame244.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame245.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame246.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame247.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame248.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame249.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame250.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame251.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame252.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame253.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame254.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame255.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame256.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame257.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame258.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame259.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame260.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame261.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame262.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame263.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame264.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame265.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame266.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame267.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame268.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame269.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame270.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame271.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame272.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame273.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame274.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame275.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame276.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame277.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame278.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame279.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame280.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame281.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame282.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame283.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame284.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame285.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame286.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame287.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame288.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame289.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame290.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame291.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame292.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame293.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame294.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame295.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame296.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame297.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame298.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame299.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame300.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame301.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame302.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame303.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame304.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame305.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame306.png"
+}, {
+	"duration": 1,
+	"sprite": "lily\\frame307.png"
+}]

@@ -1,0 +1,147 @@
+[ {
+	"args": [],
+	"block": "user_left_clicked",
+	"subcode": [ {
+		"args": [ "campanel" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [],
+			"block": "pull_up_camera"
+		} ]
+	}, {
+		"args": [ "goto3" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "office3" ],
+			"block": "office"
+		}, {
+			"args": [ "back" ],
+			"block": "show_cam_sprite"
+		} ]
+	}, {
+		"args": [ "back" ],
+		"block": "is_mouse_over_sprite",
+		"subcode": [ {
+			"args": [],
+			"block": "put_down_camera"
+		} ]
+	}, {
+		"args": [ "goto4" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "office4" ],
+			"block": "office"
+		}, {
+			"args": [ "back" ],
+			"block": "hide_cam_sprite"
+		} ]
+	}, {
+		"args": [ "checkgay" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "if game.Animatronics['gay'].Location.type == \"music_box\" then" ],
+			"block": "execute_lua",
+			"subcode": []
+		} ]
+	}, {
+		"args": [ "frontttt" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "destra" ],
+			"block": "change_office_state"
+		} ]
+	}, {
+		"args": [ "backkk" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "sinistra" ],
+			"block": "change_office_state"
+		} ]
+	}, {
+		"args": [ "smggdebug" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "this is a message, so straight" ],
+			"block": "line"
+		} ]
+	}, {
+		"args": [ "nighttexthide" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [],
+			"block": "hide_night"
+		} ]
+	}, {
+		"args": [ "nighttextshow" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [],
+			"block": "show_night"
+		} ]
+	}, {
+		"args": [ "resetanimshit" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "Bonnie" ],
+			"block": "reset_animatronic"
+		}, {
+			"args": [ "Chica" ],
+			"block": "reset_animatronic"
+		}, {
+			"args": [ "Foxy" ],
+			"block": "reset_animatronic"
+		}, {
+			"args": [ "Freddy" ],
+			"block": "reset_animatronic"
+		}, {
+			"args": [ "NPC_PowerOutAI" ],
+			"block": "reset_animatronic"
+		}, {
+			"args": [ "gay" ],
+			"block": "reset_animatronic"
+		} ]
+	}, {
+		"args": [ "dataval" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "%data(DataOfficeCheck)", "==", "69" ],
+			"block": "compare_values",
+			"subcode": [ {
+				"args": [ "datavalfalse" ],
+				"block": "hide_office_object"
+			}, {
+				"args": [ "datavaltrue" ],
+				"block": "show_office_object"
+			} ]
+		}, {
+			"args": [ "%data(DataOfficeCheck)", "<>", "69" ],
+			"block": "compare_values",
+			"subcode": [ {
+				"args": [ "datavaltrue" ],
+				"block": "hide_office_object"
+			}, {
+				"args": [ "datavalfalse" ],
+				"block": "show_office_object"
+			} ]
+		} ]
+	} ]
+}, {
+	"args": [],
+	"block": "on_night_start",
+	"subcode": [ {
+		"args": [ "back" ],
+		"block": "hide_cam_sprite"
+	}, {
+		"args": [ "abovepanorama", true ],
+		"block": "set_object_panorama"
+	}, {
+		"args": [ "bewlopan", false ],
+		"block": "set_object_panorama"
+	}, {
+		"args": [ "datavaltrue" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "datavalfalse" ],
+		"block": "hide_office_object"
+	} ]
+} ]

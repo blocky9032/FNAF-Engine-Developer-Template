@@ -1,0 +1,1322 @@
+[ {
+	"args": [],
+	"block": "user_left_clicked",
+	"subcode": [ {
+		"args": [ "setpowa100" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "100" ],
+			"block": "set_power_level"
+		} ]
+	}, {
+		"args": [ "setpowa2" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "2" ],
+			"block": "set_power_level"
+		} ]
+	}, {
+		"args": [ "settime6" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "6" ],
+			"block": "set_time"
+		} ]
+	}, {
+		"args": [ "mainmenu" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "Main" ],
+			"block": "goto_menu"
+		} ]
+	}, {
+		"args": [ "checkif" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "%game(Night)", "==", "1" ],
+			"block": "compare_values",
+			"subcode": [ {
+				"args": [ "ifcheckfalse" ],
+				"block": "hide_office_object"
+			}, {
+				"args": [ "ifchecktrue" ],
+				"block": "show_office_object"
+			} ]
+		}, {
+			"args": [ "%game(Night)", "<>", "1" ],
+			"block": "compare_values",
+			"subcode": [ {
+				"args": [ "ifchecktrue" ],
+				"block": "hide_office_object"
+			}, {
+				"args": [ "ifcheckfalse" ],
+				"block": "show_office_object"
+			} ]
+		} ]
+	}, {
+		"args": [ "settime12" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "12" ],
+			"block": "set_time"
+		} ]
+	}, {
+		"args": [ "playsuono" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "windowscare.mp3", "40", false ],
+			"block": "play_sound"
+		} ]
+	}, {
+		"args": [ "setvar1" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "john", "1" ],
+			"block": "set_var"
+		} ]
+	}, {
+		"args": [ "setvar0" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "john", "0" ],
+			"block": "set_var"
+		} ]
+	}, {
+		"args": [ "checkvar" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "%var(john)", "==", "1" ],
+			"block": "compare_values",
+			"subcode": [ {
+				"args": [ "var0" ],
+				"block": "hide_office_object"
+			}, {
+				"args": [ "var1" ],
+				"block": "show_office_object"
+			} ]
+		}, {
+			"args": [ "%var(john)", "==", "0" ],
+			"block": "compare_values",
+			"subcode": [ {
+				"args": [ "var1" ],
+				"block": "hide_office_object"
+			}, {
+				"args": [ "var0" ],
+				"block": "show_office_object"
+			} ]
+		} ]
+	}, {
+		"args": [ "setofficenormale" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "office" ],
+			"block": "office"
+		}, {
+			"args": [ "back" ],
+			"block": "hide_cam_sprite"
+		} ]
+	}, {
+		"args": [ "setofficealtro" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "office2" ],
+			"block": "office"
+		}, {
+			"args": [ "back" ],
+			"block": "hide_cam_sprite"
+		} ]
+	}, {
+		"args": [ "disabletime" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [],
+			"block": "disable_engine_time"
+		} ]
+	}, {
+		"args": [ "disablepower" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [],
+			"block": "disable_engine_power"
+		} ]
+	}, {
+		"args": [ "enabletime" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [],
+			"block": "enable_engine_time"
+		} ]
+	}, {
+		"args": [ "enablepower" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [],
+			"block": "enable_engine_power"
+		} ]
+	}, {
+		"args": [ "foxy1" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "Foxy", "peek1" ],
+			"block": "change_anim_state"
+		} ]
+	}, {
+		"args": [ "foxy2" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "Foxy", "peek2" ],
+			"block": "change_anim_state"
+		} ]
+	}, {
+		"args": [ "foxy3" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "Foxy", "peek3" ],
+			"block": "change_anim_state"
+		} ]
+	}, {
+		"args": [ "disableai" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "Bonnie", "0" ],
+			"block": "set_ai"
+		}, {
+			"args": [ "Chica", "0" ],
+			"block": "set_ai"
+		}, {
+			"args": [ "Foxy", "0" ],
+			"block": "set_ai"
+		}, {
+			"args": [ "gay", "0" ],
+			"block": "set_ai"
+		}, {
+			"args": [ "Freddy", "0" ],
+			"block": "set_ai"
+		} ]
+	}, {
+		"args": [ "enableai" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "Bonnie", "5" ],
+			"block": "set_ai"
+		}, {
+			"args": [ "Chica", "5" ],
+			"block": "set_ai"
+		}, {
+			"args": [ "Foxy", "5" ],
+			"block": "set_ai"
+		}, {
+			"args": [ "gay", "5" ],
+			"block": "set_ai"
+		}, {
+			"args": [ "Freddy", "5" ],
+			"block": "set_ai"
+		} ]
+	}, {
+		"args": [ "doorbonnie" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "Bonnie", "LeftLight" ],
+			"block": "move_anim_light"
+		} ]
+	}, {
+		"args": [ "doorchica" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "Chica", "RightLight" ],
+			"block": "move_anim_light"
+		} ]
+	}, {
+		"args": [ "usage0" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "usageBlocky", "6" ],
+			"block": "set_var"
+		} ]
+	}, {
+		"args": [ "usage1" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "usageBlocky", "0" ],
+			"block": "set_var"
+		} ]
+	}, {
+		"args": [ "usage2" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "usageBlocky", "1" ],
+			"block": "set_var"
+		} ]
+	}, {
+		"args": [ "usage3" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "usageBlocky", "2" ],
+			"block": "set_var"
+		} ]
+	}, {
+		"args": [ "usage4" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "usageBlocky", "3" ],
+			"block": "set_var"
+		} ]
+	}, {
+		"args": [ "usage5" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "usageBlocky", "4" ],
+			"block": "set_var"
+		} ]
+	}, {
+		"args": [ "musicboxai_plus" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "%var(musboxai)", "<>", "20" ],
+			"block": "compare_values",
+			"subcode": [ {
+				"args": [ "musboxai", "%math(%var(musboxai) + 1)" ],
+				"block": "set_var"
+			}, {
+				"args": [ "gay", "%var(musboxai)" ],
+				"block": "set_ai"
+			} ]
+		} ]
+	}, {
+		"args": [ "musicboxai_minus" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "%var(musboxai)", "<>", "0" ],
+			"block": "compare_values",
+			"subcode": [ {
+				"args": [ "musboxai", "%math(%var(musboxai) - 1)" ],
+				"block": "set_var"
+			}, {
+				"args": [ "gay", "%var(musboxai)" ],
+				"block": "set_ai"
+			} ]
+		} ]
+	}, {
+		"args": [ "strongfalse" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "GameData.offices['office'].strong = false" ],
+			"block": "execute_lua",
+			"subcode": []
+		}, {
+			"args": [ "office" ],
+			"block": "office"
+		} ]
+	}, {
+		"args": [ "strongtrue" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "GameData.offices['office'].strong = true" ],
+			"block": "execute_lua",
+			"subcode": []
+		}, {
+			"args": [ "office" ],
+			"block": "office"
+		} ]
+	}, {
+		"args": [ "fastfalse" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "GameData.offices['office'].fast = false" ],
+			"block": "execute_lua",
+			"subcode": []
+		} ]
+	}, {
+		"args": [ "fasttrue" ],
+		"block": "is_mouse_over_object",
+		"subcode": [ {
+			"args": [ "GameData.offices['office'].fast = true" ],
+			"block": "execute_lua",
+			"subcode": []
+		} ]
+	} ]
+}, {
+	"args": [],
+	"block": "on_night_start",
+	"subcode": [ {
+		"args": [ "ifchecktrue" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "ifcheckfalse" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "var1" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "var0" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "john", "2" ],
+		"block": "set_var"
+	}, {
+		"args": [ "usageBlocky", "6" ],
+		"block": "set_var"
+	}, {
+		"args": [ "DEVELOPERAUDIO\\boykissersong.wav", "46", true ],
+		"block": "play_sound"
+	}, {
+		"args": [ "46", "0" ],
+		"block": "set_channel_volume"
+	}, {
+		"args": [ "number0" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "number1" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "number2" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "number3" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "number4" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "number5" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "number6" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "number7" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "number8" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "number9" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "number1_10" ],
+		"block": "hide_office_object"
+	}, {
+		"args": [ "musboxai", "5" ],
+		"block": "set_var"
+	}, {
+		"args": [ "abovepanorama", true ],
+		"block": "set_object_panorama"
+	} ]
+}, {
+	"args": [],
+	"block": "on_game_loop",
+	"subcode": [ {
+		"args": [ "%var(usageBlocky)", "==", "5" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "5" ],
+			"block": "set_power_usage"
+		} ]
+	}, {
+		"args": [ "%var(usageBlocky)", "==", "4" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "4" ],
+			"block": "set_power_usage"
+		} ]
+	}, {
+		"args": [ "%var(usageBlocky)", "==", "3" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "3" ],
+			"block": "set_power_usage"
+		} ]
+	}, {
+		"args": [ "%var(usageBlocky)", "==", "2" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "2" ],
+			"block": "set_power_usage"
+		} ]
+	}, {
+		"args": [ "%var(usageBlocky)", "==", "1" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "1" ],
+			"block": "set_power_usage"
+		} ]
+	}, {
+		"args": [ "%var(usageBlocky)", "==", "0" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "0" ],
+			"block": "set_power_usage"
+		} ]
+	}, {
+		"args": [],
+		"block": "if_camera_up",
+		"subcode": [ {
+			"args": [ "boykisser" ],
+			"block": "if_current_cam",
+			"subcode": [ {
+				"args": [ "46", "80" ],
+				"block": "set_channel_volume"
+			} ]
+		} ]
+	}, {
+		"args": [],
+		"block": "if_camera_up",
+		"subcode": [ {
+			"args": [ "boykisser" ],
+			"block": "if_current_cam",
+			"negated": true,
+			"subcode": [ {
+				"args": [ "46", "0" ],
+				"block": "set_channel_volume"
+			} ]
+		} ]
+	}, {
+		"args": [],
+		"block": "if_camera_up",
+		"negated": true,
+		"subcode": [ {
+			"args": [ "46", "0" ],
+			"block": "set_channel_volume"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "0" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "1" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "2" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "3" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "4" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "5" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "6" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "7" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "8" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "9" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "10" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "11" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "12" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "13" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "14" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "15" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "16" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "17" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "18" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "19" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "hide_office_object"
+		} ]
+	}, {
+		"args": [ "%var(musboxai)", "==", "20" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "number0" ],
+			"block": "show_office_object"
+		}, {
+			"args": [ "number1" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number2" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number3" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number4" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number5" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number6" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number7" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number8" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number9" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_10" ],
+			"block": "hide_office_object"
+		}, {
+			"args": [ "number1_20" ],
+			"block": "show_office_object"
+		} ]
+	} ]
+} ]
