@@ -15,6 +15,9 @@ The names can be changed at any time, and with the addition or removal of names 
 This changelog pertains to the Developer Template
 
 ```
+Ver 21:
+- Fixed game.json
+
 Ver 20:
 - Added states for office4
 - Added button for switching states on office4
