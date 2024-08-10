@@ -6,8 +6,6 @@ This template is made with FNAF Engine to help developers ensure that future eng
 
 The following individuals are authorized to use, modify, and distribute this project outside the restrictions of the license:
 - Blocky (https://github.com/blocky9032)
-- UnknownAMD (https://github.com/UnknownAMD)
-- lily-snow-9 (https://github.com/lily-snow-9)
 
 The names can be changed at any time, and with the addition or removal of names from this document, their permission is automatically revoked or granted without notice.
 
